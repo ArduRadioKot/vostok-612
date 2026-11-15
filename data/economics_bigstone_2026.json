@@ -1,0 +1,86 @@
+{
+  "source_file": "Большой камень вся экономика.xlsx",
+  "source_sheet": "Лист1",
+  "data_status": "unverified_project_estimate",
+  "applicability": {
+    "site": "Большой камень (Приморский край)",
+    "reactor": "СВБР-100",
+    "modules": 1,
+    "power_mw": 100
+  },
+  "capex_items": [
+    {
+      "source_cell": "C3",
+      "name": "Реакторная установка и турбоостров",
+      "value_bln_rub": 25.0
+    },
+    {
+      "source_cell": "C4",
+      "name": "Сейсмостойкое строительство",
+      "value_bln_rub": 12.0
+    },
+    {
+      "source_cell": "C5",
+      "name": "Инфраструктура порта Корсаков",
+      "value_bln_rub": 6.0
+    },
+    {
+      "source_cell": "C6",
+      "name": "Комплекс ЗЯТЦ (Замкнутый цикл)",
+      "value_bln_rub": 15.0
+    },
+    {
+      "source_cell": "C7",
+      "name": "Логистика доставки оборудования",
+      "value_bln_rub": 5.0
+    },
+    {
+      "source_cell": "C8",
+      "name": "Проектирование и лицензирование",
+      "value_bln_rub": 7.0
+    },
+    {
+      "source_cell": "C9",
+      "name": "Резерв на непредвиденные расходы",
+      "value_bln_rub": 7.0
+    }
+  ],
+  "opex_items": [
+    {
+      "source_cell": "H3",
+      "name": "Топливный цикл  (Регенерация)",
+      "value_bln_rub_year": 0.8
+    },
+    {
+      "source_cell": "H4",
+      "name": "Персонал и соцпакет",
+      "value_bln_rub_year": 2.0
+    },
+    {
+      "source_cell": "H5",
+      "name": "Амортизация капитала",
+      "value_bln_rub_year": 1.28
+    },
+    {
+      "source_cell": "H6",
+      "name": "Страхование и налоги",
+      "value_bln_rub_year": 0.6
+    },
+    {
+      "source_cell": "H7",
+      "name": "Фонд вывода из эксплуатации",
+      "value_bln_rub_year": 0.5
+    }
+  ],
+  "capex_total_bln_rub": 77.0,
+  "gross_opex_bln_rub_year": 5.18,
+  "noncash_depreciation_bln_rub_year": 1.28,
+  "cash_opex_bln_rub_year": 3.9,
+  "quality_flags": [
+    "Workbook is a project estimate, not a verified contract or plant operating data.",
+    "Source column B5 says \"порт Корсаков\", but description and project site say Большой Камень; resolve location discrepancy.",
+    "Line items include nuclear fuel-cycle treatment; confirm cost allocation and whether its investment is in CAPEX.",
+    "Do not include noncash depreciation in cash OPEX when CAPEX is already counted.",
+    "Amounts apply to the specified pilot case only; scaling to other sites/reactors is hypothetical."
+  ]
+}

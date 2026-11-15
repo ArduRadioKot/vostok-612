@@ -1,0 +1,36 @@
+﻿site,reactor,modules,reason
+Усть-Кайга(Якутия),СВБР-100,1,Installed capacity below 80% of assumed demand
+Батагай(Якутия),СВБР-100,1,Installed capacity below 80% of assumed demand
+Батагай(Якутия),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Агылкинское (Якутия),СВБР-100,1,Installed capacity below 80% of assumed demand
+Тикси (Якутия),СВБР-100,1,Installed capacity below 80% of assumed demand
+Совиное (Чукотка),СВБР-100,1,Installed capacity below 80% of assumed demand
+Мыс Наглёйнын (Чукотка),СВБР-100,1,Installed capacity below 80% of assumed demand
+Певек (Чукотка),СВБР-100,1,Installed capacity below 80% of assumed demand
+Певек (Чукотка),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Билибино (Чукотка),СВБР-100,1,Installed capacity below 80% of assumed demand
+Билибино (Чукотка),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Байкит (Красноярский край),СВБР-100,1,Installed capacity below 80% of assumed demand
+Остров Большевик (Красноярский край),СВБР-100,1,Installed capacity below 80% of assumed demand
+Остров Большевик (Красноярский край),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Норильск (Красноярский край),СВБР-100,1,Installed capacity below 80% of assumed demand
+Норильск (Красноярский край),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Воркута (Коми),СВБР-100,1,Installed capacity below 80% of assumed demand
+Воркута (Коми),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Кольский п-ов (Мурманская обл.),СВБР-100,1,Installed capacity exceeds 150% of assumed demand
+Кольский п-ов (Мурманская обл.),СВБР-100,2,Installed capacity exceeds 150% of assumed demand
+Кольский п-ов (Мурманская обл.),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Камчатка (Камчатский край),СВБР-100,1,Installed capacity below 80% of assumed demand
+Камчатка (Камчатский край),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Охотское побережье (Хабаровский край),СВБР-100,1,Installed capacity below 80% of assumed demand
+Охотское побережье (Хабаровский край),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Петропавловск-Камчатский(Камчатский край),СВБР-100,1,Installed capacity below 80% of assumed demand
+Петропавловск-Камчатский(Камчатский край),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Анадырь(Чукотский АО),СВБР-100,1,Installed capacity below 80% of assumed demand
+Анадырь(Чукотский АО),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Южно-Сахалинск(Сахалинская область),СВБР-100,1,Installed capacity below 80% of assumed demand
+Магадан(Магаданская область),СВБР-100,1,Installed capacity below 80% of assumed demand
+Магадан(Магаданская область),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Краснокаменск (Забайкальский край),СВБР-100,2,Installed capacity exceeds 150% of assumed demand
+Краснокаменск (Забайкальский край),СВБР-100,3,Installed capacity exceeds 150% of assumed demand
+Большой камень (Приморский край),СВБР-100,1,Installed capacity below 80% of assumed demand

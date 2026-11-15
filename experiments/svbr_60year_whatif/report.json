@@ -1,0 +1,141 @@
+{
+  "n_candidates": 28,
+  "n_excluded": 35,
+  "n_on_pareto_front": 2,
+  "n_positive_npv": 0,
+  "n_positive_npv_nonextrapolated": 0,
+  "positive_npv_evidence_warning": "Positive NPV, if any, still depends on unverified assumptions.",
+  "best_npv_bln": -9.7552,
+  "economic_decision_status": "NO_POSITIVE_NPV_UNDER_ASSUMPTIONS",
+  "weight_sensitivity": {
+    "samples": 100,
+    "seed": 1051,
+    "dirichlet_concentration": 30.0
+  },
+  "assumptions": {
+    "anchor_capex_bln_per_100mw": 77.0,
+    "anchor_opex_bln_per_100mw_year": 3.9,
+    "power_scale_exponent": 0.8,
+    "module_scale_exponent": 0.92,
+    "capacity_factor": 0.85,
+    "demand_use_factor": 0.7,
+    "discount_rate": 0.09,
+    "construction_years": 5,
+    "max_operation_years": 60
+  },
+  "weights": {
+    "npv": 0.45,
+    "expert": 0.25,
+    "risk": 0.2,
+    "demand_fit": 0.1
+  },
+  "expert_method": "exact_sum_of_six_rubric_features_not_ML",
+  "expert_label_validation": null,
+  "cost_profile": "bigstone_2026",
+  "source_cross_checks": [
+    {
+      "severity": "warning",
+      "code": "site_count_mismatch",
+      "finding": "Thesis and Congress narrative report 17 sites, whereas the supplied sites.csv contains 21.",
+      "action": "Publish an explicit versioned inclusion/exclusion list; do not assume 17=21."
+    },
+    {
+      "severity": "warning",
+      "code": "rubric_mismatch",
+      "finding": "Thesis reports 9 criteria and 25/27 points; CSV has six ordinal columns 1..5 and 25/30 for Большой Камень.",
+      "action": "Keep these methodologies separate until original nine-criterion scorecard is sourced."
+    },
+    {
+      "severity": "warning",
+      "code": "capacity_factor_mismatch",
+      "finding": "Thesis cites 80–85% capacity factor; Congress paragraph 4.2 uses 90%; scenario currently assumes 85%.",
+      "action": "Perform scenario sensitivity; state capacity factor explicitly."
+    },
+    {
+      "severity": "warning",
+      "code": "service_life_mismatch",
+      "finding": "Thesis and cost amortization use 60 years; reactor catalogue gives СВБР-100 50 years.",
+      "action": "Keep catalogue service life in the base case and 60 years as a transparent what-if only."
+    },
+    {
+      "severity": "warning",
+      "code": "demand_not_site_verified",
+      "finding": "Congress mentions 500–800 MW regional deficit; this is not demonstrated contracted demand for a site.",
+      "action": "Obtain local hourly consumption, grid capacity and offtake terms; keep scenario_demo illustrative."
+    },
+    {
+      "severity": "warning",
+      "code": "port_name_mismatch",
+      "finding": "Economics workbook cell A5 says port Korsakov while cell B5 describes Большой Камень.",
+      "action": "Resolve location and verify cost item against logistics estimates."
+    },
+    {
+      "severity": "warning",
+      "code": "reactor_project_maturity",
+      "finding": "Technology catalog and concept documents are not independent evidence of installed cost or licensing.",
+      "action": "Require vendor references and regulatory engineering review outside this software."
+    }
+  ],
+  "operation_life_override_years": 60,
+  "n_extrapolated_financial_anchors": 28,
+  "monte_carlo_note": "Scenario shares reflect chosen triangular priors, not calibrated probabilities.",
+  "disclaimer": "Research screening only; no safety, licensed siting, grid adequacy or investment recommendation.",
+  "cost_profile_source_details": {
+    "name": "bigstone_2026",
+    "status": "unverified_project_estimate",
+    "source": "Большой камень вся экономика.xlsx",
+    "applicability": {
+      "site": "Большой камень (Приморский край)",
+      "reactor": "СВБР-100",
+      "modules": 1,
+      "power_mw": 100
+    },
+    "gross_opex_bln_year": 5.18,
+    "noncash_depreciation_bln_year": 1.28,
+    "cash_opex_bln_year": 3.9,
+    "quality_flags": [
+      "Workbook is a project estimate, not a verified contract or plant operating data.",
+      "Source column B5 says \"порт Корсаков\", but description and project site say Большой Камень; resolve location discrepancy.",
+      "Line items include nuclear fuel-cycle treatment; confirm cost allocation and whether its investment is in CAPEX.",
+      "Do not include noncash depreciation in cash OPEX when CAPEX is already counted.",
+      "Amounts apply to the specified pilot case only; scaling to other sites/reactors is hypothetical."
+    ],
+    "extrapolation_policy": "All combinations outside the exact 100 MW single-module Большой Камень/SVBR reference are unvalidated power-law extrapolations."
+  },
+  "source_diagnostics": [
+    {
+      "level": "warning",
+      "code": "derived_target",
+      "message": "All 21 expert_score values are exactly the sum of six features: NOT independent ML labels."
+    },
+    {
+      "level": "warning",
+      "code": "missing_dims",
+      "message": "7 of 26 reactors lack a documented dims."
+    },
+    {
+      "level": "warning",
+      "code": "missing_footprint",
+      "message": "14 of 26 reactors lack a documented footprint."
+    },
+    {
+      "level": "warning",
+      "code": "missing_lifetime",
+      "message": "2 reactor lifetimes missing/ambiguous."
+    },
+    {
+      "level": "warning",
+      "code": "unknown_demand",
+      "message": "The source site table contains ordinal urgency scores, NOT measured electricity demand in MW."
+    },
+    {
+      "level": "warning",
+      "code": "unverified_siting",
+      "message": "No licensing, emergency planning, heat-sink or site-specific safety assessment is supplied."
+    }
+  ],
+  "scenario_file": "/mnt/data/sever_work/nuclear_ml_pipeline/data/scenario_demo.csv",
+  "scenario_data_statuses": {
+    "illustrative": 21
+  }
+}

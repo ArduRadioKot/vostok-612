@@ -1,0 +1,154 @@
+{
+  "source_case": {
+    "source_file": "Большой камень вся экономика.xlsx",
+    "source_sheet": "Лист1",
+    "data_status": "unverified_project_estimate",
+    "applicability": {
+      "site": "Большой камень (Приморский край)",
+      "reactor": "СВБР-100",
+      "modules": 1,
+      "power_mw": 100
+    },
+    "capex_items": [
+      {
+        "source_cell": "C3",
+        "name": "Реакторная установка и турбоостров",
+        "value_bln_rub": 25.0
+      },
+      {
+        "source_cell": "C4",
+        "name": "Сейсмостойкое строительство",
+        "value_bln_rub": 12.0
+      },
+      {
+        "source_cell": "C5",
+        "name": "Инфраструктура порта Корсаков",
+        "value_bln_rub": 6.0
+      },
+      {
+        "source_cell": "C6",
+        "name": "Комплекс ЗЯТЦ (Замкнутый цикл)",
+        "value_bln_rub": 15.0
+      },
+      {
+        "source_cell": "C7",
+        "name": "Логистика доставки оборудования",
+        "value_bln_rub": 5.0
+      },
+      {
+        "source_cell": "C8",
+        "name": "Проектирование и лицензирование",
+        "value_bln_rub": 7.0
+      },
+      {
+        "source_cell": "C9",
+        "name": "Резерв на непредвиденные расходы",
+        "value_bln_rub": 7.0
+      }
+    ],
+    "opex_items": [
+      {
+        "source_cell": "H3",
+        "name": "Топливный цикл  (Регенерация)",
+        "value_bln_rub_year": 0.8
+      },
+      {
+        "source_cell": "H4",
+        "name": "Персонал и соцпакет",
+        "value_bln_rub_year": 2.0
+      },
+      {
+        "source_cell": "H5",
+        "name": "Амортизация капитала",
+        "value_bln_rub_year": 1.28
+      },
+      {
+        "source_cell": "H6",
+        "name": "Страхование и налоги",
+        "value_bln_rub_year": 0.6
+      },
+      {
+        "source_cell": "H7",
+        "name": "Фонд вывода из эксплуатации",
+        "value_bln_rub_year": 0.5
+      }
+    ],
+    "capex_total_bln_rub": 77.0,
+    "gross_opex_bln_rub_year": 5.18,
+    "noncash_depreciation_bln_rub_year": 1.28,
+    "cash_opex_bln_rub_year": 3.9,
+    "quality_flags": [
+      "Workbook is a project estimate, not a verified contract or plant operating data.",
+      "Source column B5 says \"порт Корсаков\", but description and project site say Большой Камень; resolve location discrepancy.",
+      "Line items include nuclear fuel-cycle treatment; confirm cost allocation and whether its investment is in CAPEX.",
+      "Do not include noncash depreciation in cash OPEX when CAPEX is already counted.",
+      "Amounts apply to the specified pilot case only; scaling to other sites/reactors is hypothetical."
+    ]
+  },
+  "profile": {
+    "name": "bigstone_2026",
+    "status": "unverified_project_estimate",
+    "source": "Большой камень вся экономика.xlsx",
+    "applicability": {
+      "site": "Большой камень (Приморский край)",
+      "reactor": "СВБР-100",
+      "modules": 1,
+      "power_mw": 100
+    },
+    "gross_opex_bln_year": 5.18,
+    "noncash_depreciation_bln_year": 1.28,
+    "cash_opex_bln_year": 3.9,
+    "quality_flags": [
+      "Workbook is a project estimate, not a verified contract or plant operating data.",
+      "Source column B5 says \"порт Корсаков\", but description and project site say Большой Камень; resolve location discrepancy.",
+      "Line items include nuclear fuel-cycle treatment; confirm cost allocation and whether its investment is in CAPEX.",
+      "Do not include noncash depreciation in cash OPEX when CAPEX is already counted.",
+      "Amounts apply to the specified pilot case only; scaling to other sites/reactors is hypothetical."
+    ],
+    "extrapolation_policy": "All combinations outside the exact 100 MW single-module Большой Камень/SVBR reference are unvalidated power-law extrapolations."
+  },
+  "inconsistencies": [
+    {
+      "severity": "warning",
+      "code": "site_count_mismatch",
+      "finding": "Thesis and Congress narrative report 17 sites, whereas the supplied sites.csv contains 21.",
+      "action": "Publish an explicit versioned inclusion/exclusion list; do not assume 17=21."
+    },
+    {
+      "severity": "warning",
+      "code": "rubric_mismatch",
+      "finding": "Thesis reports 9 criteria and 25/27 points; CSV has six ordinal columns 1..5 and 25/30 for Большой Камень.",
+      "action": "Keep these methodologies separate until original nine-criterion scorecard is sourced."
+    },
+    {
+      "severity": "warning",
+      "code": "capacity_factor_mismatch",
+      "finding": "Thesis cites 80–85% capacity factor; Congress paragraph 4.2 uses 90%; scenario currently assumes 85%.",
+      "action": "Perform scenario sensitivity; state capacity factor explicitly."
+    },
+    {
+      "severity": "warning",
+      "code": "service_life_mismatch",
+      "finding": "Thesis and cost amortization use 60 years; reactor catalogue gives СВБР-100 50 years.",
+      "action": "Keep catalogue service life in the base case and 60 years as a transparent what-if only."
+    },
+    {
+      "severity": "warning",
+      "code": "demand_not_site_verified",
+      "finding": "Congress mentions 500–800 MW regional deficit; this is not demonstrated contracted demand for a site.",
+      "action": "Obtain local hourly consumption, grid capacity and offtake terms; keep scenario_demo illustrative."
+    },
+    {
+      "severity": "warning",
+      "code": "port_name_mismatch",
+      "finding": "Economics workbook cell A5 says port Korsakov while cell B5 describes Большой Камень.",
+      "action": "Resolve location and verify cost item against logistics estimates."
+    },
+    {
+      "severity": "warning",
+      "code": "reactor_project_maturity",
+      "finding": "Technology catalog and concept documents are not independent evidence of installed cost or licensing.",
+      "action": "Require vendor references and regulatory engineering review outside this software."
+    }
+  ]
+}

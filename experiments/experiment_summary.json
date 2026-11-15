@@ -1,0 +1,38 @@
+{
+  "updated_21x26": {
+    "n_candidates": 276,
+    "n_excluded": 1362,
+    "n_on_pareto_front": 5,
+    "n_positive_npv": 8,
+    "n_positive_npv_nonextrapolated": 0,
+    "best_npv_bln": 8.0074,
+    "n_extrapolated_financial_anchors": 276,
+    "economic_decision_status": "SOME_POSITIVE_NPV_UNDER_ASSUMPTIONS",
+    "positive_npv_evidence_warning": "Every positive NPV comes from unvalidated cross-site/reactor cost scaling; none is supported by a directly applicable cost case.",
+    "expert_method": "exact_sum_of_six_rubric_features_not_ML"
+  },
+  "legacy_21x26": {
+    "n_candidates": 276,
+    "n_excluded": 1362,
+    "n_on_pareto_front": 9,
+    "n_positive_npv": 0,
+    "n_positive_npv_nonextrapolated": 0,
+    "best_npv_bln": -23.0575,
+    "n_extrapolated_financial_anchors": 0,
+    "economic_decision_status": "NO_POSITIVE_NPV_UNDER_ASSUMPTIONS",
+    "positive_npv_evidence_warning": "Positive NPV, if any, still depends on unverified assumptions.",
+    "expert_method": "exact_sum_of_six_rubric_features_not_ML"
+  },
+  "svbr_60year_whatif": {
+    "n_candidates": 28,
+    "n_excluded": 35,
+    "n_on_pareto_front": 2,
+    "n_positive_npv": 0,
+    "n_positive_npv_nonextrapolated": 0,
+    "best_npv_bln": -9.7552,
+    "n_extrapolated_financial_anchors": 28,
+    "economic_decision_status": "NO_POSITIVE_NPV_UNDER_ASSUMPTIONS",
+    "positive_npv_evidence_warning": "Positive NPV, if any, still depends on unverified assumptions.",
+    "expert_method": "exact_sum_of_six_rubric_features_not_ML"
+  }
+}
