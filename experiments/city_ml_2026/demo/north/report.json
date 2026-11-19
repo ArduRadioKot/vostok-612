@@ -1,0 +1,288 @@
+{
+  "region": "Учебный синтетический промышленный район (не реальная география)",
+  "region_id": "SYNTHETIC-REGION-01",
+  "city": "Учебный Северный",
+  "site_count": 3,
+  "candidate_count": 234,
+  "scenario_count": 9,
+  "scenarios_without_ranked_candidates": 0,
+  "shortlist_count": 16,
+  "seed": 42,
+  "min_ranked_share": 0.8,
+  "imputation_mode": "median",
+  "screening_envelope_mw": [
+    73.5,
+    182.0
+  ],
+  "analysis_horizon_years_assumed": 40,
+  "status_counts": {
+    "SCENARIO_SHORTLIST": 16,
+    "BELOW_MIN_SCENARIO_SHARE": 12,
+    "REJECTED": 192,
+    "NEEDS_HARD_DATA": 14
+  },
+  "result": "TIED_MODEL_LEADERS",
+  "leaders": [
+    {
+      "site_id": "S1",
+      "site_name": "Учебный участок Альфа",
+      "reactor": "ALFRED",
+      "modules": 1,
+      "electrical_mw": 125.0,
+      "static_status": "ELIGIBLE_FOR_SCENARIOS",
+      "static_reasons": "",
+      "status": "SCENARIO_SHORTLIST",
+      "n_scenarios": 9,
+      "feasible_share": 1.0,
+      "ranked_share": 1.0,
+      "p_top1": 0.3333333333333333,
+      "p_top3": 0.5555555555555556,
+      "mean_loss_when_ranked": 0.019051355333333336
+    },
+    {
+      "site_id": "S1",
+      "site_name": "Учебный участок Альфа",
+      "reactor": "OTRERA 300",
+      "modules": 1,
+      "electrical_mw": 110.0,
+      "static_status": "ELIGIBLE_FOR_SCENARIOS",
+      "static_reasons": "",
+      "status": "SCENARIO_SHORTLIST",
+      "n_scenarios": 9,
+      "feasible_share": 1.0,
+      "ranked_share": 1.0,
+      "p_top1": 0.3333333333333333,
+      "p_top3": 0.3333333333333333,
+      "mean_loss_when_ranked": 0.01955258808888889
+    }
+  ],
+  "site_rubric_model": {
+    "S1": {
+      "status": "OBSERVED",
+      "missing": []
+    },
+    "S2": {
+      "status": "IMPUTED_SOFT_RUBRIC",
+      "method": "median",
+      "selected_method": "median",
+      "validation": "leave_one_site_out",
+      "fixed_method_mae": {
+        "median": 0.8571428571428571,
+        "bayesian-ridge": 0.8857177899915608,
+        "blend": 0.8714303235672088
+      },
+      "missing": [
+        "economy"
+      ],
+      "estimate": {
+        "economy": 4.0
+      },
+      "n_history_sites": 21,
+      "held_out_site_mae": 0.8571428571428571,
+      "held_out_site_median_mae": 0.8571428571428571
+    },
+    "S3": {
+      "status": "IMPUTED_SOFT_RUBRIC",
+      "method": "median",
+      "selected_method": "median",
+      "validation": "leave_one_site_out",
+      "fixed_method_mae": {
+        "median": 0.8285714285714286,
+        "bayesian-ridge": 0.9435640703417888,
+        "blend": 0.8843303814975187
+      },
+      "missing": [
+        "oyat",
+        "logistics",
+        "industry",
+        "economy",
+        "geo_climate"
+      ],
+      "estimate": {
+        "oyat": 2.0,
+        "logistics": 3.0,
+        "industry": 2.0,
+        "economy": 4.0,
+        "geo_climate": 3.0
+      },
+      "n_history_sites": 21,
+      "held_out_site_mae": 0.8285714285714286,
+      "held_out_site_median_mae": 0.8285714285714286
+    }
+  },
+  "cost_mode": "SCENARIO_PROXY",
+  "cost_profiles": {
+    "bigstone_2026": {
+      "name": "bigstone_2026",
+      "status": "unverified_project_estimate",
+      "source": "Большой камень вся экономика.xlsx",
+      "applicability": {
+        "site": "Большой камень (Приморский край)",
+        "reactor": "СВБР-100",
+        "modules": 1,
+        "power_mw": 100
+      },
+      "gross_opex_bln_year": 5.18,
+      "noncash_depreciation_bln_year": 1.28,
+      "cash_opex_bln_year": 3.9,
+      "quality_flags": [
+        "Workbook is a project estimate, not a verified contract or plant operating data.",
+        "Source column B5 says \"порт Корсаков\", but description and project site say Большой Камень; resolve location discrepancy.",
+        "Line items include nuclear fuel-cycle treatment; confirm cost allocation and whether its investment is in CAPEX.",
+        "Do not include noncash depreciation in cash OPEX when CAPEX is already counted.",
+        "Amounts apply to the specified pilot case only; scaling to other sites/reactors is hypothetical."
+      ],
+      "extrapolation_policy": "All combinations outside the exact 100 MW single-module Большой Камень/SVBR reference are unvalidated power-law extrapolations."
+    },
+    "legacy_2026": {
+      "name": "legacy_2026",
+      "status": "illustrative_original_model",
+      "source": "research_article(1).md / economics.py (2026-11-11)",
+      "applicability": "Illustrative power-law scenario; not calibrated to actual sites or projects",
+      "depreciation_handling": "Not separately provided in original anchor"
+    }
+  },
+  "scenario_interpretation": "Equal weight per supplied scenario; ordinal rubric estimates are model inputs.",
+  "scope": "Preliminary comparison of modeled alternatives. Cost anchors and demand need local validation.",
+  "inputs": {
+    "region": {
+      "file": "region.json",
+      "sha256": "2e2276adc74c8d9fbe3dcb81601379bf180e962f3f8911d8769438838d45170f"
+    },
+    "sites": {
+      "file": "sites.csv",
+      "sha256": "6cdec6dca7240d87899bc7933848b00cc43fd2b5a9e2509d30a35e9d0b0807b7"
+    },
+    "reactors": {
+      "file": "reactors.csv",
+      "sha256": "30316f7f4a278119ff9e657e71abf784c2084f7bfef2d893807d6902d69649bb"
+    },
+    "scenarios": {
+      "file": "scenarios.csv",
+      "sha256": "cabe18dc307d33ff9fc48da2cf98d00224bfdc70becef7ad568e01b6d6c0bf10"
+    },
+    "history": {
+      "file": "sites.csv",
+      "sha256": "bc8cc3e0ac8e516e86ada25945cf005bafc1e6934da99aeb157e6ae8eba9489f"
+    }
+  },
+  "scenarios": [
+    {
+      "scenario_id": "S01",
+      "demand_mw": 105.0,
+      "tariff_rub_per_kwh": 12.0,
+      "cost_profile": "legacy_2026",
+      "capex_factor": 1.0,
+      "opex_factor": 1.0,
+      "weights": [
+        0.5,
+        0.35,
+        0.15
+      ]
+    },
+    {
+      "scenario_id": "S02",
+      "demand_mw": 115.0,
+      "tariff_rub_per_kwh": 12.0,
+      "cost_profile": "legacy_2026",
+      "capex_factor": 1.0,
+      "opex_factor": 1.0,
+      "weights": [
+        0.5,
+        0.35,
+        0.15
+      ]
+    },
+    {
+      "scenario_id": "S03",
+      "demand_mw": 120.0,
+      "tariff_rub_per_kwh": 12.0,
+      "cost_profile": "legacy_2026",
+      "capex_factor": 1.2,
+      "opex_factor": 1.1,
+      "weights": [
+        0.5,
+        0.35,
+        0.15
+      ]
+    },
+    {
+      "scenario_id": "S04",
+      "demand_mw": 125.0,
+      "tariff_rub_per_kwh": 16.0,
+      "cost_profile": "bigstone_2026",
+      "capex_factor": 1.0,
+      "opex_factor": 1.0,
+      "weights": [
+        0.5,
+        0.35,
+        0.15
+      ]
+    },
+    {
+      "scenario_id": "S05",
+      "demand_mw": 130.0,
+      "tariff_rub_per_kwh": 16.0,
+      "cost_profile": "bigstone_2026",
+      "capex_factor": 1.2,
+      "opex_factor": 1.1,
+      "weights": [
+        0.4,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "scenario_id": "S06",
+      "demand_mw": 140.0,
+      "tariff_rub_per_kwh": 16.0,
+      "cost_profile": "bigstone_2026",
+      "capex_factor": 1.0,
+      "opex_factor": 1.0,
+      "weights": [
+        0.4,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "scenario_id": "S07",
+      "demand_mw": 110.0,
+      "tariff_rub_per_kwh": 14.0,
+      "cost_profile": "legacy_2026",
+      "capex_factor": 0.9,
+      "opex_factor": 1.1,
+      "weights": [
+        0.35,
+        0.4,
+        0.25
+      ]
+    },
+    {
+      "scenario_id": "S08",
+      "demand_mw": 115.0,
+      "tariff_rub_per_kwh": 14.0,
+      "cost_profile": "bigstone_2026",
+      "capex_factor": 0.9,
+      "opex_factor": 0.9,
+      "weights": [
+        0.35,
+        0.4,
+        0.25
+      ]
+    },
+    {
+      "scenario_id": "S09",
+      "demand_mw": 125.0,
+      "tariff_rub_per_kwh": 14.0,
+      "cost_profile": "bigstone_2026",
+      "capex_factor": 1.0,
+      "opex_factor": 1.0,
+      "weights": [
+        0.35,
+        0.4,
+        0.25
+      ]
+    }
+  ]
+}

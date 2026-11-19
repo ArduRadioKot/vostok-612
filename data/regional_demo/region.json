@@ -1,0 +1,16 @@
+{
+  "region_id": "SYNTHETIC-REGION-01",
+  "name": "Учебный синтетический промышленный район (не реальная география)",
+  "source_status": "illustrative",
+  "source_reference": "",
+  "demand_mw": {"min": 70, "max": 210, "notes": "Сценарные числа, не измеренные нагрузки"},
+  "max_modules": 3,
+  "max_total_capacity_mw": 290,
+  "max_transport_diameter_m": 5.0,
+  "transport_diameter_hard_scenario_gate": false,
+  "scenario_screen": {
+    "min_fraction_of_min_demand": 0.7,
+    "max_fraction_of_max_demand": 1.3,
+    "notes": "Демонстрационные эвристики, не нормативы и не подтверждение совместимости с энергосистемой"
+  }
+}

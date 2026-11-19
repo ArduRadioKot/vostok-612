@@ -1,0 +1,30 @@
+{
+  "seed": 612,
+  "repeats": 300,
+  "features": [
+    "deficit",
+    "oyat",
+    "logistics",
+    "industry",
+    "economy",
+    "geo_climate"
+  ],
+  "shape": [
+    21,
+    6
+  ],
+  "mask": "uniform exact cell count, at least 3 observed per column",
+  "input_sha256": {
+    "data/sites.csv": "6b353788415eb54a0bd5e12e32be780dbd959b0cd9ce03e2d4b2d07b03becf09",
+    "experiments/missing_data_2026/baseline/ranking.csv": "70d33efcd8529c77a30fdf1f690b7af4ecf79c7d238c47a77397970ffd67a357"
+  },
+  "reference": "existing six-criterion site scores, not independently verified labels",
+  "decision": "site sum; existing configuration score with recalculated site sum and logistics risk; other variables fixed",
+  "caveats": [
+    "Artificial missingness only",
+    "KNN and mean fitted to partially observed 21-site matrix",
+    "Source data not ground truth",
+    "Fixed economic inputs and candidate set",
+    "Not independent expert preference validation"
+  ]
+}

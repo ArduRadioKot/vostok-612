@@ -1,0 +1,631 @@
+﻿historic_site,historic_region,holdout,pattern,mask,training_count,hidden,method,context_features_used,cell_mae,abstained,leader_overlap,exact_leader_set,scenario_top3_recall,mean_full_loss_points
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,median,,0.5,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,bayesian-ridge,,0.31720085558153754,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,context-ridge,admin_region,0.19642354812333584,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,gpr,,0.18314222665809132,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:logistics|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:logistics|S2:industry,median,,0.5,0,1,1,0.967741935483871,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:logistics|S2:industry,bayesian-ridge,,0.40555795068592526,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:logistics|S2:industry,context-ridge,admin_region,0.22806677110162732,0,1,1,0.967741935483871,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:logistics|S2:industry,gpr,,0.02320002074673133,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+усть-кайга(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,0,0.8064516129032258,1.955258808888889
+усть-кайга(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.7639782452089912,0,1,1,0.9032258064516129,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.1576229384482848,0,1,1,0.8709677419354839,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.7447356576163551,0,1,1,0.9032258064516129,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:industry,median,,0.5,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:industry,bayesian-ridge,,0.5056696243029866,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:industry,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:industry,gpr,,0.33717062647435425,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:logistics|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:logistics|S2:industry,median,,1.0,0,1,0,0.8709677419354839,1.955258808888889
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:logistics|S2:industry,bayesian-ridge,,0.5197995709794041,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:logistics|S2:industry,context-ridge,,1.0,0,1,0,0.8709677419354839,1.955258808888889
+усть-кайга(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:logistics|S2:industry,gpr,,0.6715368386231614,0,1,1,1.0,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+усть-кайга(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.8064516129032258,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,bayesian-ridge,,0.7801926232395722,0,1,1,0.9354838709677419,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,1,0.8064516129032258,1.9301971711111112
+усть-кайга(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,gpr,,0.5744159857095601,0,1,1,0.9354838709677419,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,median,,0.5,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,bayesian-ridge,,0.3195525602455407,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,context-ridge,admin_region,0.21423619586455667,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,gpr,,0.2850209574088549,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,median,,0.5,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,bayesian-ridge,,0.839146587325641,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,context-ridge,admin_region,0.9910485635726869,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,gpr,,1.1755596507970185,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+батагай(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.967741935483871,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.7826451142720368,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.1369737142973988,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.8850386040001907,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:economy,median,,1.0,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:economy,bayesian-ridge,,0.5287903680128652,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:economy,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:economy,gpr,,0.1653310728132389,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:economy|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:economy|S2:geo_climate,median,,0.5,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:economy|S2:geo_climate,bayesian-ridge,,0.9417389788866475,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:economy|S2:geo_climate,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:economy|S2:geo_climate,gpr,,1.1724490517545276,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+батагай(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.967741935483871,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,bayesian-ridge,,0.7804396779333571,0,1,1,1.0,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,1,0.967741935483871,1.9301971711111112
+батагай(якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,gpr,,0.8537806628357967,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,median,,0.5,0,1,1,0.9354838709677419,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,bayesian-ridge,,0.4781839878741836,0,1,1,0.8709677419354839,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,context-ridge,admin_region,0.6774930054860238,0,1,1,0.8387096774193549,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,gpr,,0.6535845767675881,0,1,1,0.8709677419354839,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:economy,median,,1.0,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:economy,bayesian-ridge,,0.9638680559501487,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:economy,context-ridge,admin_region,0.5889898338978061,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:economy,gpr,,0.31263513474026006,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+агылкинское (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.6451612903225806,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.993932394927129,0,1,1,0.8709677419354839,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.450761685757288,0,1,1,0.5483870967741935,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.1282687607939796,0,1,1,0.7419354838709677,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:geo_climate,median,,1.0,0,1,1,0.9354838709677419,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:geo_climate,bayesian-ridge,,0.40015355792690954,0,1,1,0.967741935483871,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:geo_climate,context-ridge,,1.0,0,1,1,0.9354838709677419,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:logistics|S2:geo_climate,gpr,,0.4296650153126911,0,1,1,0.9354838709677419,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:economy,median,,1.0,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:economy,bayesian-ridge,,1.1415182607142378,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:economy,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:economy,gpr,,0.5800159102236777,0,1,1,1.0,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+агылкинское (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,median,,1.5,0,1,0,0.6129032258064516,1.955258808888889
+агылкинское (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,bayesian-ridge,,0.9950632529572072,0,1,1,0.8064516129032258,1.9301971711111112
+агылкинское (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,0,0.6129032258064516,1.955258808888889
+агылкинское (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,gpr,,0.8740492248687237,0,1,1,0.8709677419354839,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:oyat,none,,,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:oyat,median,,0.5,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:oyat,bayesian-ridge,,0.6451569034410383,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:oyat,context-ridge,admin_region,0.35163822653065124,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-1,20,S2:deficit|S2:oyat,gpr,,0.41243849593520987,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,none,,,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,median,,0.5,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,bayesian-ridge,,0.724895009345659,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,context-ridge,admin_region,0.6168935537761895,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,gpr,,0.6082762891845388,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+тикси (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.0,0,1,0,0.7741935483870968,1.955258808888889
+тикси (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.0401503231386942,0,1,1,0.9354838709677419,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.4502285788179807,0,1,1,0.8709677419354839,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.1153813149257594,0,1,1,0.9354838709677419,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:oyat,none,,,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:oyat,median,,0.5,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:oyat,bayesian-ridge,,0.786789581636246,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:oyat,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-1,17,S2:deficit|S2:oyat,gpr,,0.5467575290884792,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:logistics,none,,,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:logistics,median,,1.0,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:logistics,bayesian-ridge,,0.7376334881670639,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:logistics,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,scatter,scatter-2,17,S2:deficit|S2:logistics,gpr,,0.7183430842643507,0,1,1,1.0,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+тикси (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,median,,1.0,0,1,1,0.8064516129032258,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,bayesian-ridge,,0.8933553885823133,0,1,1,0.9354838709677419,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,context-ridge,,1.0,0,1,1,0.8064516129032258,1.9301971711111112
+тикси (якутия),республика саха (якутия),leave-region-out,block,block-logistics,17,S1:logistics|S2:logistics,gpr,,1.07441598570956,0,1,1,0.9354838709677419,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,median,,0.5,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,bayesian-ridge,,0.5002397605290119,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,context-ridge,admin_region,0.5666335668828872,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,gpr,,0.07320993828655631,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,median,,0.5,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,bayesian-ridge,,0.333152160837606,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,context-ridge,admin_region,0.23603512260818305,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,gpr,,0.22201895648682135,0,1,1,0.9354838709677419,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+совиное (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,0,0.7096774193548387,1.955258808888889
+совиное (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.8557661915358734,0,1,1,0.9354838709677419,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.291269439196045,0,1,1,0.8387096774193549,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.8386366910444452,0,1,1,0.9032258064516129,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,median,,0.5,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,bayesian-ridge,,0.3903404194378215,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,gpr,,0.49020299091906017,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,median,,0.75,0,1,1,0.9354838709677419,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,bayesian-ridge,,0.745119453351091,0,1,1,1.0,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,context-ridge,,0.75,0,1,1,0.9354838709677419,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,gpr,,0.6284895358504361,0,1,1,0.9354838709677419,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+совиное (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,median,,1.5,0,1,0,0.7096774193548387,1.955258808888889
+совиное (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,bayesian-ridge,,0.8021382556465713,0,1,1,0.9354838709677419,1.9301971711111112
+совиное (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,0,0.7096774193548387,1.955258808888889
+совиное (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,gpr,,0.8908616409989452,0,1,1,0.9032258064516129,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:economy,none,,,0,1,1,0.7096774193548387,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:economy,median,,1.0,0,1,1,0.8064516129032258,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:economy,bayesian-ridge,,1.5164092794618105,0,1,1,0.7419354838709677,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:economy,context-ridge,admin_region,1.6036115826160733,0,1,1,0.7096774193548387,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:economy,gpr,,1.4934876902222982,0,1,1,0.7096774193548387,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,none,,,0,1,1,0.7096774193548387,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,median,,1.0,0,1,1,0.7419354838709677,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,bayesian-ridge,,1.0890083283281227,0,1,1,0.7419354838709677,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,context-ridge,admin_region,1.043027983317594,0,1,1,0.7419354838709677,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,gpr,,0.9463109380594765,0,1,1,0.7741935483870968,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.9354838709677419,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.369886479259091,0,1,1,1.0,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.6885460085853177,0,1,1,0.9354838709677419,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.18136514901618,0,1,1,0.967741935483871,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:economy,none,,,0,1,1,0.7096774193548387,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:economy,median,,1.0,0,1,1,0.8064516129032258,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:economy,bayesian-ridge,,1.9509832966852543,0,1,1,0.7096774193548387,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:economy,context-ridge,,1.0,0,1,1,0.8064516129032258,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:economy,gpr,,1.459274010514611,0,1,1,0.7419354838709677,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:logistics,none,,,0,1,1,0.7096774193548387,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:logistics,median,,1.0,0,1,1,0.7741935483870968,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:logistics,bayesian-ridge,,1.5928271071630073,0,1,1,0.7096774193548387,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:logistics,context-ridge,,1.0,0,1,1,0.7741935483870968,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:logistics,gpr,,1.0016656272617894,0,1,1,0.7741935483870968,1.9301971711111112
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,median,,1.5,0,1,0,0.8064516129032258,2.312141616111111
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,bayesian-ridge,,1.4480806286668735,0,1,0,0.9354838709677419,1.9051355333333335
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,0,0.8064516129032258,2.312141616111111
+мыс наглёйнын (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,gpr,,1.0207582161783904,0,1,0,0.9354838709677419,1.9051355333333335
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,median,,1.0,0,1,1,0.8709677419354839,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,bayesian-ridge,,0.9545721604023183,0,1,1,0.8709677419354839,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,context-ridge,admin_region,0.9251482023762985,0,1,1,0.9354838709677419,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:economy|S2:geo_climate,gpr,,1.0349165763162496,0,1,1,0.8709677419354839,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,median,,0.5,0,1,0,0.8387096774193549,1.955258808888889
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,bayesian-ridge,,1.3815611698403083,0,1,0,0.7096774193548387,3.4579749494444445
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,context-ridge,admin_region,1.4664323211615313,0,1,0,0.5161290322580645,3.4579749494444445
+певек (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,gpr,,1.2955523041850512,0,1,0,0.7419354838709677,1.955258808888889
+певек (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+певек (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.9032258064516129,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.0082174252840184,0,1,1,0.9354838709677419,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.3367324770882083,0,1,1,0.9032258064516129,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.9061834256616943,0,1,1,0.9354838709677419,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,median,,1.0,0,1,1,0.8709677419354839,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,bayesian-ridge,,1.0389336086324787,0,1,1,0.8709677419354839,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,context-ridge,,1.0,0,1,1,0.8709677419354839,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:economy|S2:geo_climate,gpr,,1.1308259812804118,0,1,1,0.8709677419354839,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:geo_climate,median,,0.75,0,1,0,0.8064516129032258,1.955258808888889
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:geo_climate,bayesian-ridge,,2.37881926665441,0,0,0,0.3870967741935484,4.985752727777778
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:geo_climate,context-ridge,,0.75,0,1,0,0.8064516129032258,1.955258808888889
+певек (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:geo_climate,gpr,,1.4371114518764871,0,1,0,0.6774193548387096,3.4579749494444445
+певек (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+певек (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.9032258064516129,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,bayesian-ridge,,1.181334335091885,0,1,1,0.9354838709677419,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,1,0.9032258064516129,1.9301971711111112
+певек (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,gpr,,0.9416577701225219,0,1,1,0.9354838709677419,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,none,,,0,1,1,0.9393939393939394,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,median,,0.0,0,1,1,0.8484848484848485,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,bayesian-ridge,,0.8040501342554023,0,1,1,0.7878787878787878,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,context-ridge,admin_region,0.9984562858304473,0,1,1,0.7878787878787878,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:industry,gpr,,0.7716248304977189,0,1,1,0.7878787878787878,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,none,,,0,1,1,0.9393939393939394,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,median,,0.5,0,1,1,0.7272727272727273,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,bayesian-ridge,,1.2317591711065359,0,1,0,0.5757575757575758,3.0760305044444443
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,context-ridge,admin_region,1.3178942256140185,0,1,0,0.5454545454545454,3.0760305044444443
+билибино (чукотка),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,gpr,,0.9411053055054373,0,1,0,0.6060606060606061,3.0760305044444443
+билибино (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+билибино (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.0,0,1,1,0.6666666666666666,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.096355822887043,0,1,1,0.7575757575757576,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.5595705790036427,0,0,0,0.36363636363636365,4.221863837777778
+билибино (чукотка),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.8586551412426926,0,1,1,0.8181818181818182,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:industry,none,,,0,1,1,0.9393939393939394,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:industry,median,,0.25,0,1,1,0.8787878787878788,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:industry,bayesian-ridge,,1.9908777915066094,0,1,1,0.7878787878787878,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:industry,context-ridge,,0.25,0,1,1,0.8787878787878788,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:deficit|S2:industry,gpr,,0.7841354182707627,0,1,0,0.8181818181818182,1.955258808888889
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:economy,none,,,0,1,1,0.9393939393939394,1.9301971711111112
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:economy,median,,0.75,0,1,0,0.7878787878787878,1.9051355333333335
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:economy,bayesian-ridge,,1.6216295244083714,0,0,0,0.42424242424242425,4.221863837777778
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:economy,context-ridge,,0.75,0,1,0,0.7878787878787878,1.9051355333333335
+билибино (чукотка),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:industry|S2:economy,gpr,,1.0237278938986134,0,1,0,0.7272727272727273,3.0760305044444443
+билибино (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+билибино (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,median,,1.0,0,1,0,0.7272727272727273,1.955258808888889
+билибино (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,bayesian-ridge,,0.8709120418656735,0,1,0,0.7878787878787878,1.9051355333333335
+билибино (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,context-ridge,,1.0,0,1,0,0.7272727272727273,1.955258808888889
+билибино (чукотка),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,gpr,,0.7839040516850193,0,1,0,0.8484848484848485,1.9051355333333335
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:geo_climate,median,,0.0,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:geo_climate,bayesian-ridge,,0.6379392663020826,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:geo_climate,context-ridge,admin_region,0.5837394311397485,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:geo_climate,gpr,,0.18499807343794505,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,none,,,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,median,,0.5,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,bayesian-ridge,,0.5839825334117386,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,context-ridge,admin_region,0.28597216814345794,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,gpr,,0.37856548906805254,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+байкит (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,2.0,0,1,1,0.967741935483871,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.124356034097042,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.290613105540108,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.217459977237127,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:geo_climate,median,,0.0,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:geo_climate,bayesian-ridge,,0.46354765742536586,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:geo_climate,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:geo_climate,gpr,,0.407580000545287,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:deficit|S2:oyat,none,,,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:deficit|S2:oyat,median,,0.5,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:deficit|S2:oyat,bayesian-ridge,,0.5341869189858788,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:deficit|S2:oyat,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:deficit|S2:oyat,gpr,,0.42150277819727533,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+байкит (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,median,,2.0,0,1,1,0.967741935483871,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,bayesian-ridge,,0.9318591038641807,0,1,1,1.0,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,context-ridge,,2.0,0,1,1,0.967741935483871,1.9301971711111112
+байкит (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,gpr,,1.2520494776119286,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,median,,0.5,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,bayesian-ridge,,1.3236714559920966,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,context-ridge,admin_region,1.0096918794475849,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,gpr,,0.6546803912361414,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,median,,1.5,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,bayesian-ridge,,1.842872248858702,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,context-ridge,admin_region,1.68420541902272,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:economy|S2:geo_climate,gpr,,1.7478118820536688,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+остров большевик (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,2.0,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.716090424684072,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.894955907941537,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.6278863682179288,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:economy,median,,0.5,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:economy,bayesian-ridge,,1.3328238558634977,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:economy,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:oyat|S2:economy,gpr,,0.6411307371804558,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:economy|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:economy|S2:geo_climate,median,,1.5,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:economy|S2:geo_climate,bayesian-ridge,,1.8409687098332905,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:economy|S2:geo_climate,context-ridge,,1.5,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:economy|S2:geo_climate,gpr,,1.7278158089785869,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+остров большевик (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,median,,2.0,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,bayesian-ridge,,1.620160807065635,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,context-ridge,,2.0,0,1,1,1.0,1.9301971711111112
+остров большевик (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,gpr,,1.666824266935342,0,1,1,1.0,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:industry,none,,,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:industry,median,,2.0,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:industry,bayesian-ridge,,1.1190704386411272,0,1,1,0.8709677419354839,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:industry,context-ridge,admin_region,1.1758736336954076,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:industry,gpr,,1.0248896421390497,0,1,1,0.9032258064516129,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,none,,,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,median,,1.5,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,bayesian-ridge,,1.16033949881617,0,0,0,0.6451612903225806,3.483036587777778
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,context-ridge,admin_region,0.9298342555822219,0,1,1,0.8709677419354839,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,gpr,,1.1184953787569212,0,1,0,0.7096774193548387,2.694086061111111
+норильск (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+норильск (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.9833564594481059,0,1,1,0.7741935483870968,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.5,0,0,0,0.5806451612903226,3.4579749505555557
+норильск (красноярский край),красноярский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.7014895667842891,0,1,1,0.9354838709677419,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:logistics|S2:industry,none,,,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:logistics|S2:industry,median,,2.0,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:logistics|S2:industry,bayesian-ridge,,1.1809455659599586,0,1,1,0.8709677419354839,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:logistics|S2:industry,context-ridge,,2.0,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-1,18,S2:logistics|S2:industry,gpr,,1.0324102925139977,0,1,1,0.8709677419354839,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:logistics|S2:economy,none,,,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:logistics|S2:economy,median,,1.5,0,1,1,0.8709677419354839,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:logistics|S2:economy,bayesian-ridge,,0.9572020011864728,0,1,1,0.6774193548387096,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:logistics|S2:economy,context-ridge,,1.5,0,1,1,0.8709677419354839,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,scatter,scatter-2,18,S2:logistics|S2:economy,gpr,,1.1284897819299968,0,1,0,0.6129032258064516,2.694086061111111
+норильск (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+норильск (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,bayesian-ridge,,1.0767170828258625,0,1,0,0.7096774193548387,2.694086061111111
+норильск (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,1,0.8387096774193549,1.9301971711111112
+норильск (красноярский край),красноярский край,leave-region-out,block,block-logistics,18,S1:logistics|S2:logistics,gpr,,0.7451519800089748,0,1,0,0.8064516129032258,1.955258808888889
+воркута (коми),республика коми,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,median,,1.5,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,bayesian-ridge,,1.2493641961036486,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,context-ridge,,1.5,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:economy,gpr,,1.4671300512750345,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,none,,,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,median,,0.5,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,bayesian-ridge,,0.1414227725810966,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,gpr,,1.0649786339658935,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+воркута (коми),республика коми,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.967741935483871,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.6657321463671835,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,1,0.967741935483871,1.9301971711111112
+воркута (коми),республика коми,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.6465868394852496,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:economy,median,,1.5,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:economy,bayesian-ridge,,1.2493641961036486,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:economy,context-ridge,,1.5,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:economy,gpr,,1.4671300512750345,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,none,,,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,median,,0.5,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,bayesian-ridge,,0.1414227725810966,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,gpr,,1.0649786339658935,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+воркута (коми),республика коми,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,1,0.967741935483871,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.6657321463671835,0,1,1,1.0,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,1,0.967741935483871,1.9301971711111112
+воркута (коми),республика коми,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.6465868394852496,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,median,,1.5,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,bayesian-ridge,,0.8509418940237135,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,context-ridge,,1.5,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,gpr,,1.3414269468027462,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,median,,1.0,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,bayesian-ridge,,0.34282132147261635,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,gpr,,0.4962489549281577,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,2.0,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.280290565830852,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,2.0,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.4487131793581889,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,median,,1.5,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,bayesian-ridge,,0.8509418940237135,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,context-ridge,,1.5,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-1,20,S2:logistics|S2:geo_climate,gpr,,1.3414269468027462,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,median,,1.0,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,bayesian-ridge,,0.34282132147261635,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,scatter,scatter-2,20,S2:oyat|S2:geo_climate,gpr,,0.4962489549281577,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,2.0,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.280290565830852,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,2.0,0,1,1,1.0,1.9301971711111112
+кольский п-ов (мурманская обл.),мурманская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.4487131793581889,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,none,,,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,median,,0.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,bayesian-ridge,,0.38230438911397013,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,gpr,,0.15514347832468678,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,none,,,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,median,,0.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,bayesian-ridge,,0.47052115617294943,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:oyat,gpr,,0.24688408158010056,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+камчатка (камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.0,0,1,1,0.967741935483871,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.8050306156149964,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.0,0,1,1,0.967741935483871,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.6344135755483173,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,none,,,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,median,,0.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,bayesian-ridge,,0.39335796791603217,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,gpr,,0.16376878163906428,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:deficit|S2:oyat,none,,,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:deficit|S2:oyat,median,,0.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:deficit|S2:oyat,bayesian-ridge,,0.4881122146790764,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:deficit|S2:oyat,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:deficit|S2:oyat,gpr,,0.2582319090862808,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+камчатка (камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,median,,1.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,bayesian-ridge,,0.8406058706861443,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+камчатка (камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,gpr,,0.6911566637904432,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,median,,0.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,bayesian-ridge,,0.4794579125207652,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,gpr,,0.3202433373494069,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,median,,0.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,bayesian-ridge,,0.46211544114907954,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:economy,gpr,,0.10049629596246534,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.8050306156149967,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.6344135755483169,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,median,,0.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,bayesian-ridge,,0.4794579125207652,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,gpr,,0.3202433373494069,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:economy,median,,0.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:economy,bayesian-ridge,,0.46211544114907954,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:economy,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:economy,gpr,,0.10049629596246534,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.8050306156149967,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+охотское побережье (хабаровский край),хабаровский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.6344135755483169,0,1,1,1.0,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,none,,,0,1,1,0.8387096774193549,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,median,,0.5,0,1,1,0.9032258064516129,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,bayesian-ridge,,0.29391043138703643,0,1,1,0.9354838709677419,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,context-ridge,,0.5,0,1,1,0.9032258064516129,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-1,20,S2:deficit|S2:logistics,gpr,,0.22531096413507457,0,1,1,0.9032258064516129,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:logistics,none,,,0,1,1,0.8387096774193549,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:logistics,median,,0.5,0,1,1,0.8709677419354839,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:logistics,bayesian-ridge,,0.4677554154544987,0,1,1,0.8709677419354839,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:logistics,context-ridge,,0.5,0,1,1,0.8709677419354839,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,scatter,scatter-2,20,S2:oyat|S2:logistics,gpr,,0.6758364963327921,0,1,1,0.8387096774193549,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,0,0.7096774193548387,1.955258808888889
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.8494435511244212,0,1,0,0.8387096774193549,1.9051355333333335
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,0,0.7096774193548387,1.955258808888889
+петропавловск-камчатский(камчатский край),камчатский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.6963717804770579,0,1,1,0.8709677419354839,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,none,,,0,1,1,0.8387096774193549,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,median,,0.5,0,1,1,0.9032258064516129,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,bayesian-ridge,,0.31406083645163596,0,1,1,0.9354838709677419,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,context-ridge,,0.5,0,1,1,0.9032258064516129,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-1,19,S2:deficit|S2:logistics,gpr,,0.23938173673132512,0,1,1,0.967741935483871,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:oyat|S2:logistics,none,,,0,1,1,0.8387096774193549,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:oyat|S2:logistics,median,,0.5,0,1,1,0.8709677419354839,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:oyat|S2:logistics,bayesian-ridge,,0.4906150349531464,0,1,0,0.8387096774193549,1.955258808888889
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:oyat|S2:logistics,context-ridge,,0.5,0,1,1,0.8709677419354839,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,scatter,scatter-2,19,S2:oyat|S2:logistics,gpr,,0.6852938432093825,0,1,0,0.8064516129032258,1.955258808888889
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,median,,1.5,0,1,0,0.7419354838709677,1.955258808888889
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,bayesian-ridge,,0.866975409589422,0,1,1,0.8064516129032258,1.9301971711111112
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,0,0.7419354838709677,1.955258808888889
+петропавловск-камчатский(камчатский край),камчатский край,leave-region-out,block,block-logistics,19,S1:logistics|S2:logistics,gpr,,0.7102446465683201,0,1,1,0.9032258064516129,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,median,,0.0,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,bayesian-ridge,,0.3320114538617076,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,context-ridge,admin_region,0.7807751789760964,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,gpr,,0.047301030665436894,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,median,,0.0,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,bayesian-ridge,,0.4260838604252656,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,context-ridge,admin_region,0.6788221899543816,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:industry,gpr,,0.15937720899182595,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.9289227528328472,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,admin_region,1.4023899435000953,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.7959682236652381,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:oyat|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:oyat|S2:economy,median,,0.0,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:oyat|S2:economy,bayesian-ridge,,0.11892851017030237,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:oyat|S2:economy,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-1,16,S2:oyat|S2:economy,gpr,,0.05793929494171812,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,median,,0.25,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,bayesian-ridge,,0.3880099920943084,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,context-ridge,,0.25,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,scatter,scatter-2,16,S2:deficit|S2:industry,gpr,,0.15952240410347573,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,median,,1.5,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,bayesian-ridge,,0.9075227208818921,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,1,1.0,1.9301971711111112
+анадырь(чукотский ао),чукотский автономный округ,leave-region-out,block,block-logistics,16,S1:logistics|S2:logistics,gpr,,0.8140607926867014,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,median,,0.5,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,bayesian-ridge,,2.1199941167612177,0,1,1,0.8387096774193549,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,gpr,,2.386908857882216,0,1,1,0.8387096774193549,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,median,,2.0,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,bayesian-ridge,,2.6551949917035653,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,context-ridge,,2.0,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,scatter,scatter-2,20,S2:logistics|S2:economy,gpr,,2.9556439595245414,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,2.0,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.7682304405586022,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,2.0,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.7687791148531025,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,none,,,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,median,,0.5,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,bayesian-ridge,,2.1199941167612177,0,1,1,0.8387096774193549,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-1,20,S2:industry|S2:geo_climate,gpr,,2.386908857882216,0,1,1,0.8387096774193549,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-2,20,S2:logistics|S2:economy,none,,,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-2,20,S2:logistics|S2:economy,median,,2.0,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-2,20,S2:logistics|S2:economy,bayesian-ridge,,2.6551949917035653,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-2,20,S2:logistics|S2:economy,context-ridge,,2.0,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,scatter,scatter-2,20,S2:logistics|S2:economy,gpr,,2.9556439595245414,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,2.0,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.7682304405586022,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,2.0,0,1,1,1.0,1.9301971711111112
+южно-сахалинск(сахалинская область),сахалинская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.7687791148531025,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:industry,median,,0.5,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:industry,bayesian-ridge,,0.8019799011493152,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:industry,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:industry,gpr,,0.9413959420826037,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,none,,,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,median,,0.0,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,bayesian-ridge,,0.21336206282190018,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,gpr,,0.21645729264085234,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+магадан(магаданская область),магаданская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.0,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.6149900925145804,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.6314921025055027,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:industry,none,,,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:industry,median,,0.5,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:industry,bayesian-ridge,,0.8019799011493152,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:industry,context-ridge,,0.5,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:industry,gpr,,0.9413959420826037,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,none,,,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,median,,0.0,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,bayesian-ridge,,0.21336206282190018,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,context-ridge,,0.0,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,gpr,,0.21645729264085234,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+магадан(магаданская область),магаданская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.0,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.6149900925145804,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.0,0,1,1,1.0,1.9301971711111112
+магадан(магаданская область),магаданская область,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.6314921025055027,0,1,1,1.0,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,none,,,0,1,1,0.7096774193548387,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,median,,1.0,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,bayesian-ridge,,1.2913565133683251,0,1,1,0.7419354838709677,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,context-ridge,,1.0,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-1,20,S2:oyat|S2:economy,gpr,,1.4205801150407347,0,1,1,0.7419354838709677,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,none,,,0,1,1,0.7096774193548387,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,median,,1.5,0,1,1,0.7419354838709677,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,bayesian-ridge,,0.9921183132612783,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,context-ridge,,1.5,0,1,1,0.7419354838709677,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,gpr,,0.9491392120445095,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,0,0.7741935483870968,1.955258808888889
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.6281508487612175,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,0,0.7741935483870968,1.955258808888889
+краснокаменск (забайкальский край),забайкальский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.7325050960149613,0,1,0,0.9354838709677419,1.955258808888889
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,none,,,0,1,1,0.7096774193548387,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,median,,1.0,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,bayesian-ridge,,1.2913565133683251,0,1,1,0.7419354838709677,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,context-ridge,,1.0,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-1,20,S2:oyat|S2:economy,gpr,,1.4205801150407347,0,1,1,0.7419354838709677,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,none,,,0,1,1,0.7096774193548387,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,median,,1.5,0,1,1,0.7419354838709677,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,bayesian-ridge,,0.9921183132612783,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,context-ridge,,1.5,0,1,1,0.7419354838709677,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,scatter,scatter-2,20,S2:industry|S2:geo_climate,gpr,,0.9491392120445095,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,1.5,0,1,0,0.7741935483870968,1.955258808888889
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,0.6281508487612175,0,1,1,0.7741935483870968,1.9301971711111112
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,1.5,0,1,0,0.7741935483870968,1.955258808888889
+краснокаменск (забайкальский край),забайкальский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,0.7325050960149613,0,1,0,0.9354838709677419,1.955258808888889
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-1,20,S2:industry|S2:economy,none,,,0,0,0,0.2903225806451613,2.694086058888889
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-1,20,S2:industry|S2:economy,median,,2.0,0,1,0,0.7419354838709677,2.3121416150000003
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-1,20,S2:industry|S2:economy,bayesian-ridge,,0.954896505773893,0,1,0,0.6774193548387096,2.3121416150000003
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-1,20,S2:industry|S2:economy,context-ridge,,2.0,0,1,0,0.7419354838709677,2.3121416150000003
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-1,20,S2:industry|S2:economy,gpr,,0.887252413354817,0,1,0,0.6774193548387096,2.3121416150000003
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,none,,,0,0,0,0.2903225806451613,2.694086058888889
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,median,,1.5,0,0,0,0.4838709677419355,2.694086058888889
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,bayesian-ridge,,1.1296872934194875,0,0,0,0.4838709677419355,2.7191476966666666
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,context-ridge,,1.5,0,0,0,0.4838709677419355,2.694086058888889
+большой камень (приморский край),приморский край,leave-site-out,scatter,scatter-2,20,S2:deficit|S2:logistics,gpr,,1.1600238430336367,0,0,0,0.4838709677419355,2.7191476966666666
+большой камень (приморский край),приморский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+большой камень (приморский край),приморский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,2.0,0,1,1,0.9032258064516129,1.9301971716666668
+большой камень (приморский край),приморский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.0514223180724365,0,1,1,0.9032258064516129,1.9301971716666668
+большой камень (приморский край),приморский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,2.0,0,1,1,0.9032258064516129,1.9301971716666668
+большой камень (приморский край),приморский край,leave-site-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.2908797994244492,0,0,0,0.7096774193548387,2.694086058888889
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-1,20,S2:industry|S2:economy,none,,,0,0,0,0.2903225806451613,2.694086058888889
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-1,20,S2:industry|S2:economy,median,,2.0,0,1,0,0.7419354838709677,2.3121416150000003
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-1,20,S2:industry|S2:economy,bayesian-ridge,,0.954896505773893,0,1,0,0.6774193548387096,2.3121416150000003
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-1,20,S2:industry|S2:economy,context-ridge,,2.0,0,1,0,0.7419354838709677,2.3121416150000003
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-1,20,S2:industry|S2:economy,gpr,,0.887252413354817,0,1,0,0.6774193548387096,2.3121416150000003
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,none,,,0,0,0,0.2903225806451613,2.694086058888889
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,median,,1.5,0,0,0,0.4838709677419355,2.694086058888889
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,bayesian-ridge,,1.1296872934194875,0,0,0,0.4838709677419355,2.7191476966666666
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,context-ridge,,1.5,0,0,0,0.4838709677419355,2.694086058888889
+большой камень (приморский край),приморский край,leave-region-out,scatter,scatter-2,20,S2:deficit|S2:logistics,gpr,,1.1600238430336367,0,0,0,0.4838709677419355,2.7191476966666666
+большой камень (приморский край),приморский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,none,,,1,0,0,0.0,
+большой камень (приморский край),приморский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,median,,2.0,0,1,1,0.9032258064516129,1.9301971716666668
+большой камень (приморский край),приморский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,bayesian-ridge,,1.0514223180724365,0,1,1,0.9032258064516129,1.9301971716666668
+большой камень (приморский край),приморский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,context-ridge,,2.0,0,1,1,0.9032258064516129,1.9301971716666668
+большой камень (приморский край),приморский край,leave-region-out,block,block-logistics,20,S1:logistics|S2:logistics,gpr,,1.2908797994244492,0,0,0,0.7096774193548387,2.694086058888889

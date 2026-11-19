@@ -1,0 +1,22 @@
+﻿site,demand_mw,tariff_rub_per_kwh,data_status,port_type,has_rail,water_available,seismic_balls,permafrost
+Усть-Кайга(Якутия),250,15.0,illustrative,none,no,yes,6,yes
+Батагай(Якутия),160,15.0,illustrative,none,no,yes,6,yes
+Агылкинское (Якутия),250,15.0,illustrative,none,no,yes,6,yes
+Тикси (Якутия),250,15.0,illustrative,seasonal,no,yes,7,yes
+Совиное (Чукотка),250,15.0,illustrative,none,no,yes,7,yes
+Мыс Наглёйнын (Чукотка),250,15.0,illustrative,none,no,yes,7,yes
+Певек (Чукотка),160,15.0,illustrative,seasonal,no,yes,7,yes
+Билибино (Чукотка),160,15.0,illustrative,none,no,yes,7,yes
+Байкит (Красноярский край),250,15.0,illustrative,,,,,
+Остров Большевик (Красноярский край),160,15.0,illustrative,,,,,
+Норильск (Красноярский край),160,15.0,illustrative,none,yes,yes,6,yes
+Воркута (Коми),160,15.0,illustrative,none,yes,yes,6,no
+Кольский п-ов (Мурманская обл.),25,15.0,illustrative,,,,,
+Камчатка (Камчатский край),160,15.0,illustrative,,,,,
+Охотское побережье (Хабаровский край),160,15.0,illustrative,,,,,
+Петропавловск-Камчатский(Камчатский край),160,15.0,illustrative,year_round,no,yes,8,no
+Анадырь(Чукотский АО),160,15.0,illustrative,seasonal,no,yes,8,yes
+Южно-Сахалинск(Сахалинская область),250,15.0,illustrative,year_round,yes,yes,7,no
+Магадан(Магаданская область),160,15.0,illustrative,year_round,no,yes,7,no
+Краснокаменск (Забайкальский край),90,15.0,illustrative,none,yes,yes,6,no
+Большой камень (Приморский край),250,15.0,illustrative,year_round,yes,yes,6,no

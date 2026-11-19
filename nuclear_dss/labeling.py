@@ -11,9 +11,10 @@ def blank_template(sites, n_experts=3):
     """Create an empty field sheet. Does not populate any synthetic ratings."""
     if not 2 <= n_experts <= 25:
         raise ValueError('n_experts must be 2..25')
-    return pd.DataFrame([{'site': site, 'expert_id': f'expert_{i+1}',
-                           'independent_score': '', 'method': '', 'source_reference': ''}
+    form = pd.DataFrame([{'site': site, 'expert_id': f'expert_{i+1}',
+                          'independent_score': '', 'method': '', 'source_reference': ''}
                          for site in sites.site for i in range(n_experts)])
+    return form.astype({'independent_score': 'object'}) if not form.empty else form
 
 
 def aggregate_ratings(path, sites, min_experts=2):

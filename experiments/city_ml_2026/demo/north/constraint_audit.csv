@@ -1,0 +1,661 @@
+﻿stage,site_id,reactor,modules,code,outcome,evidence,explanation,action
+region,,4S,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=10 MWe.",Recheck with measured site demand/load curve.
+region,,4S,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=10 MWe.,"Verify load-following, grid stability and exact limit."
+region,,4S,1,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 3.5 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,4S,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=20 MWe.",Recheck with measured site demand/load curve.
+region,,4S,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=20 MWe.,"Verify load-following, grid stability and exact limit."
+region,,4S,2,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 3.5 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,4S,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=30 MWe.",Recheck with measured site demand/load curve.
+region,,4S,3,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=30 MWe.,"Verify load-following, grid stability and exact limit."
+region,,4S,3,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 3.5 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,ARC-100,1,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=100 MWe.",Recheck with measured site demand/load curve.
+region,,ARC-100,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=100 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ARC-100,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 7.9 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,ARC-100,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=200 MWe.",Recheck with measured site demand/load curve.
+region,,ARC-100,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=200 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ARC-100,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 7.9 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,ARC-100,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=300 MWe.",Recheck with measured site demand/load curve.
+region,,ARC-100,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=300 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ARC-100,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 7.9 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БРЕСТ-ОД-300,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=300 MWe.",Recheck with measured site demand/load curve.
+region,,БРЕСТ-ОД-300,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=300 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БРЕСТ-ОД-300,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 26 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БРЕСТ-ОД-300,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=600 MWe.",Recheck with measured site demand/load curve.
+region,,БРЕСТ-ОД-300,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=600 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БРЕСТ-ОД-300,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 26 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БРЕСТ-ОД-300,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=900 MWe.",Recheck with measured site demand/load curve.
+region,,БРЕСТ-ОД-300,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=900 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БРЕСТ-ОД-300,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 26 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,HEXAHA,1,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=150 MWe.",Recheck with measured site demand/load curve.
+region,,HEXAHA,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=150 MWe.,"Verify load-following, grid stability and exact limit."
+region,,HEXAHA,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 9 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,HEXAHA,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=300 MWe.",Recheck with measured site demand/load curve.
+region,,HEXAHA,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=300 MWe.,"Verify load-following, grid stability and exact limit."
+region,,HEXAHA,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 9 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,HEXAHA,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=450 MWe.",Recheck with measured site demand/load curve.
+region,,HEXAHA,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=450 MWe.,"Verify load-following, grid stability and exact limit."
+region,,HEXAHA,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 9 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,LFR-AS-200,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=200 MWe.",Recheck with measured site demand/load curve.
+region,,LFR-AS-200,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=200 MWe.,"Verify load-following, grid stability and exact limit."
+region,,LFR-AS-200,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 6.3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,LFR-AS-200,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=400 MWe.",Recheck with measured site demand/load curve.
+region,,LFR-AS-200,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=400 MWe.,"Verify load-following, grid stability and exact limit."
+region,,LFR-AS-200,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 6.3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,LFR-AS-200,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=600 MWe.",Recheck with measured site demand/load curve.
+region,,LFR-AS-200,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=600 MWe.,"Verify load-following, grid stability and exact limit."
+region,,LFR-AS-200,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 6.3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,OTRERA 300,1,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=110 MWe.",Recheck with measured site demand/load curve.
+region,,OTRERA 300,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=110 MWe.,"Verify load-following, grid stability and exact limit."
+region,,OTRERA 300,1,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,OTRERA 300,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=220 MWe.",Recheck with measured site demand/load curve.
+region,,OTRERA 300,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=220 MWe.,"Verify load-following, grid stability and exact limit."
+region,,OTRERA 300,2,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,OTRERA 300,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=330 MWe.",Recheck with measured site demand/load curve.
+region,,OTRERA 300,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=330 MWe.,"Verify load-following, grid stability and exact limit."
+region,,OTRERA 300,3,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,SEALER-55,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=55 MWe.",Recheck with measured site demand/load curve.
+region,,SEALER-55,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=55 MWe.,"Verify load-following, grid stability and exact limit."
+region,,SEALER-55,1,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 4.8 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,SEALER-55,2,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=110 MWe.",Recheck with measured site demand/load curve.
+region,,SEALER-55,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=110 MWe.,"Verify load-following, grid stability and exact limit."
+region,,SEALER-55,2,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 4.8 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,SEALER-55,3,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=165 MWe.",Recheck with measured site demand/load curve.
+region,,SEALER-55,3,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=165 MWe.,"Verify load-following, grid stability and exact limit."
+region,,SEALER-55,3,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 4.8 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,СВБР-100,1,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=100 MWe.",Recheck with measured site demand/load curve.
+region,,СВБР-100,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=100 MWe.,"Verify load-following, grid stability and exact limit."
+region,,СВБР-100,1,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 4.4 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,СВБР-100,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=200 MWe.",Recheck with measured site demand/load curve.
+region,,СВБР-100,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=200 MWe.,"Verify load-following, grid stability and exact limit."
+region,,СВБР-100,2,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 4.4 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,СВБР-100,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=300 MWe.",Recheck with measured site demand/load curve.
+region,,СВБР-100,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=300 MWe.,"Verify load-following, grid stability and exact limit."
+region,,СВБР-100,3,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 4.4 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,NATRIUM,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=345 MWe.",Recheck with measured site demand/load curve.
+region,,NATRIUM,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=345 MWe.,"Verify load-following, grid stability and exact limit."
+region,,NATRIUM,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 11.6 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,NATRIUM,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,NATRIUM,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=690 MWe.",Recheck with measured site demand/load curve.
+region,,NATRIUM,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=690 MWe.,"Verify load-following, grid stability and exact limit."
+region,,NATRIUM,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 11.6 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,NATRIUM,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,NATRIUM,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1035 MWe.",Recheck with measured site demand/load curve.
+region,,NATRIUM,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1035 MWe.,"Verify load-following, grid stability and exact limit."
+region,,NATRIUM,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 11.6 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,NATRIUM,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,БН-1200М,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1220 MWe.",Recheck with measured site demand/load curve.
+region,,БН-1200М,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1220 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БН-1200М,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 17 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БН-1200М,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,БН-1200М,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=2440 MWe.",Recheck with measured site demand/load curve.
+region,,БН-1200М,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=2440 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БН-1200М,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 17 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БН-1200М,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,БН-1200М,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=3660 MWe.",Recheck with measured site demand/load curve.
+region,,БН-1200М,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=3660 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БН-1200М,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 17 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БН-1200М,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,БН-800,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=880 MWe.",Recheck with measured site demand/load curve.
+region,,БН-800,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=880 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БН-800,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 15 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БН-800,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,БН-800,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1760 MWe.",Recheck with measured site demand/load curve.
+region,,БН-800,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1760 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БН-800,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 15 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БН-800,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,БН-800,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=2640 MWe.",Recheck with measured site demand/load curve.
+region,,БН-800,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=2640 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БН-800,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 15 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БН-800,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,БН-600,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=600 MWe.",Recheck with measured site demand/load curve.
+region,,БН-600,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=600 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БН-600,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 12.6 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БН-600,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,БН-600,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1200 MWe.",Recheck with measured site demand/load curve.
+region,,БН-600,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1200 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БН-600,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 12.6 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БН-600,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,БН-600,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1800 MWe.",Recheck with measured site demand/load curve.
+region,,БН-600,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1800 MWe.,"Verify load-following, grid stability and exact limit."
+region,,БН-600,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 12.6 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,БН-600,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,PRISM,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=311 MWe.",Recheck with measured site demand/load curve.
+region,,PRISM,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=311 MWe.,"Verify load-following, grid stability and exact limit."
+region,,PRISM,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 6 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,PRISM,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,PRISM,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=622 MWe.",Recheck with measured site demand/load curve.
+region,,PRISM,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=622 MWe.,"Verify load-following, grid stability and exact limit."
+region,,PRISM,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 6 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,PRISM,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,PRISM,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=933 MWe.",Recheck with measured site demand/load curve.
+region,,PRISM,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=933 MWe.,"Verify load-following, grid stability and exact limit."
+region,,PRISM,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 6 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,PRISM,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,TWR-P,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=600 MWe.",Recheck with measured site demand/load curve.
+region,,TWR-P,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=600 MWe.,"Verify load-following, grid stability and exact limit."
+region,,TWR-P,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 13.3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,TWR-P,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,TWR-P,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1200 MWe.",Recheck with measured site demand/load curve.
+region,,TWR-P,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1200 MWe.,"Verify load-following, grid stability and exact limit."
+region,,TWR-P,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 13.3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,TWR-P,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,TWR-P,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1800 MWe.",Recheck with measured site demand/load curve.
+region,,TWR-P,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1800 MWe.,"Verify load-following, grid stability and exact limit."
+region,,TWR-P,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 13.3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,TWR-P,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,МБИР,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=60 MWe.",Recheck with measured site demand/load curve.
+region,,МБИР,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=60 MWe.,"Verify load-following, grid stability and exact limit."
+region,,МБИР,1,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 4 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,МБИР,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,МБИР,2,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=120 MWe.",Recheck with measured site demand/load curve.
+region,,МБИР,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=120 MWe.,"Verify load-following, grid stability and exact limit."
+region,,МБИР,2,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 4 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,МБИР,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,МБИР,3,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=180 MWe.",Recheck with measured site demand/load curve.
+region,,МБИР,3,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=180 MWe.,"Verify load-following, grid stability and exact limit."
+region,,МБИР,3,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 4 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,МБИР,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,ALFRED,1,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=125 MWe.",Recheck with measured site demand/load curve.
+region,,ALFRED,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=125 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ALFRED,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 12.9 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,ALFRED,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,ALFRED,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=250 MWe.",Recheck with measured site demand/load curve.
+region,,ALFRED,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=250 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ALFRED,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 12.9 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,ALFRED,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,ALFRED,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=375 MWe.",Recheck with measured site demand/load curve.
+region,,ALFRED,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=375 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ALFRED,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 12.9 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,ALFRED,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,ELFR,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=600 MWe.",Recheck with measured site demand/load curve.
+region,,ELFR,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=600 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ELFR,1,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,ELFR,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,ELFR,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1200 MWe.",Recheck with measured site demand/load curve.
+region,,ELFR,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1200 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ELFR,2,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,ELFR,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,ELFR,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1800 MWe.",Recheck with measured site demand/load curve.
+region,,ELFR,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1800 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ELFR,3,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,ELFR,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,CFR-600,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=600 MWe.",Recheck with measured site demand/load curve.
+region,,CFR-600,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=600 MWe.,"Verify load-following, grid stability and exact limit."
+region,,CFR-600,1,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,CFR-600,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,CFR-600,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1200 MWe.",Recheck with measured site demand/load curve.
+region,,CFR-600,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1200 MWe.,"Verify load-following, grid stability and exact limit."
+region,,CFR-600,2,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,CFR-600,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,CFR-600,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1800 MWe.",Recheck with measured site demand/load curve.
+region,,CFR-600,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1800 MWe.,"Verify load-following, grid stability and exact limit."
+region,,CFR-600,3,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,CFR-600,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,ASTRID,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=600 MWe.",Recheck with measured site demand/load curve.
+region,,ASTRID,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=600 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ASTRID,1,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,ASTRID,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,ASTRID,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1200 MWe.",Recheck with measured site demand/load curve.
+region,,ASTRID,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1200 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ASTRID,2,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,ASTRID,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,ASTRID,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1800 MWe.",Recheck with measured site demand/load curve.
+region,,ASTRID,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1800 MWe.,"Verify load-following, grid stability and exact limit."
+region,,ASTRID,3,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,ASTRID,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,FBR-1 & 2,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=500 MWe.",Recheck with measured site demand/load curve.
+region,,FBR-1 & 2,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=500 MWe.,"Verify load-following, grid stability and exact limit."
+region,,FBR-1 & 2,1,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,FBR-1 & 2,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,FBR-1 & 2,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1000 MWe.",Recheck with measured site demand/load curve.
+region,,FBR-1 & 2,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1000 MWe.,"Verify load-following, grid stability and exact limit."
+region,,FBR-1 & 2,2,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,FBR-1 & 2,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,FBR-1 & 2,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1500 MWe.",Recheck with measured site demand/load curve.
+region,,FBR-1 & 2,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1500 MWe.,"Verify load-following, grid stability and exact limit."
+region,,FBR-1 & 2,3,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,FBR-1 & 2,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,JSFR,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=750 MWe.",Recheck with measured site demand/load curve.
+region,,JSFR,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=750 MWe.,"Verify load-following, grid stability and exact limit."
+region,,JSFR,1,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,JSFR,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,JSFR,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=1500 MWe.",Recheck with measured site demand/load curve.
+region,,JSFR,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=1500 MWe.,"Verify load-following, grid stability and exact limit."
+region,,JSFR,2,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,JSFR,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,JSFR,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=2250 MWe.",Recheck with measured site demand/load curve.
+region,,JSFR,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=2250 MWe.,"Verify load-following, grid stability and exact limit."
+region,,JSFR,3,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,JSFR,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,Stellarium,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=250 MWe.",Recheck with measured site demand/load curve.
+region,,Stellarium,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=250 MWe.,"Verify load-following, grid stability and exact limit."
+region,,Stellarium,1,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 2.3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,Stellarium,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=500 MWe.",Recheck with measured site demand/load curve.
+region,,Stellarium,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=500 MWe.,"Verify load-following, grid stability and exact limit."
+region,,Stellarium,2,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 2.3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,Stellarium,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=750 MWe.",Recheck with measured site demand/load curve.
+region,,Stellarium,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=750 MWe.,"Verify load-following, grid stability and exact limit."
+region,,Stellarium,3,REGIONAL_TRANSPORT_DIAMETER,SCENARIO_PASS,illustrative_catalog,Catalog diameter 2.3 m vs illustrative limit 5 m; actual shipping envelope unverified.,Verify bridge/loading/clearance constraints.
+region,,Stable Salt Reactor-Wasteburner,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=300 MWe.",Recheck with measured site demand/load curve.
+region,,Stable Salt Reactor-Wasteburner,1,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=300 MWe.,"Verify load-following, grid stability and exact limit."
+region,,Stable Salt Reactor-Wasteburner,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 7 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,Stable Salt Reactor-Wasteburner,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=600 MWe.",Recheck with measured site demand/load curve.
+region,,Stable Salt Reactor-Wasteburner,2,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=600 MWe.,"Verify load-following, grid stability and exact limit."
+region,,Stable Salt Reactor-Wasteburner,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 7 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,Stable Salt Reactor-Wasteburner,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=900 MWe.",Recheck with measured site demand/load curve.
+region,,Stable Salt Reactor-Wasteburner,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=900 MWe.,"Verify load-following, grid stability and exact limit."
+region,,Stable Salt Reactor-Wasteburner,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 7 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,SALUS-100,1,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=100 MWe.",Recheck with measured site demand/load curve.
+region,,SALUS-100,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=100 MWe.,"Verify load-following, grid stability and exact limit."
+region,,SALUS-100,1,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 10.5 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,SALUS-100,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,SALUS-100,2,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=200 MWe.",Recheck with measured site demand/load curve.
+region,,SALUS-100,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=200 MWe.,"Verify load-following, grid stability and exact limit."
+region,,SALUS-100,2,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 10.5 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,SALUS-100,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,SALUS-100,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=300 MWe.",Recheck with measured site demand/load curve.
+region,,SALUS-100,3,MAX_TOTAL_CAPACITY,SCENARIO_FAIL,illustrative,Scenario ceiling 290 MWe; option=300 MWe.,"Verify load-following, grid stability and exact limit."
+region,,SALUS-100,3,REGIONAL_TRANSPORT_DIAMETER,REVIEW,illustrative_catalog,Catalog diameter 10.5 m vs illustrative limit 5 m; actual shipping envelope unverified.,Study alternative transport routes and actual freight envelope.
+region,,SALUS-100,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,BLUE CAPSULE,1,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=60 MWe.",Recheck with measured site demand/load curve.
+region,,BLUE CAPSULE,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=60 MWe.,"Verify load-following, grid stability and exact limit."
+region,,BLUE CAPSULE,1,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,BLUE CAPSULE,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,BLUE CAPSULE,2,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=120 MWe.",Recheck with measured site demand/load curve.
+region,,BLUE CAPSULE,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=120 MWe.,"Verify load-following, grid stability and exact limit."
+region,,BLUE CAPSULE,2,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,BLUE CAPSULE,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,BLUE CAPSULE,3,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=180 MWe.",Recheck with measured site demand/load curve.
+region,,BLUE CAPSULE,3,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=180 MWe.,"Verify load-following, grid stability and exact limit."
+region,,BLUE CAPSULE,3,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,BLUE CAPSULE,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,Aurora,1,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=75 MWe.",Recheck with measured site demand/load curve.
+region,,Aurora,1,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=75 MWe.,"Verify load-following, grid stability and exact limit."
+region,,Aurora,1,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,Aurora,1,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,Aurora,2,POWER_SCENARIO_WINDOW,SCENARIO_PASS,illustrative,"Illustrative window [73.5, 182] MWe; option=150 MWe.",Recheck with measured site demand/load curve.
+region,,Aurora,2,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=150 MWe.,"Verify load-following, grid stability and exact limit."
+region,,Aurora,2,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,Aurora,2,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+region,,Aurora,3,POWER_SCENARIO_WINDOW,SCENARIO_FAIL,illustrative,"Illustrative window [73.5, 182] MWe; option=225 MWe.",Recheck with measured site demand/load curve.
+region,,Aurora,3,MAX_TOTAL_CAPACITY,SCENARIO_PASS,illustrative,Scenario ceiling 290 MWe; option=225 MWe.,"Verify load-following, grid stability and exact limit."
+region,,Aurora,3,REGIONAL_TRANSPORT_DIAMETER,UNKNOWN,catalog_unknown,Reactor package diameter absent or ambiguous in catalog.,Request approved lifting/shipping package drawings.
+region,,Aurora,3,NOMINAL_FOOTPRINT,UNKNOWN,catalog_unknown,Comparable per-module footprint not available from catalog.,Request layout envelope incl. support infrastructure.
+site,S1,ARC-100,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,ARC-100,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,ARC-100,1,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 7.9 m exceeds scenario route envelope 5.1 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,ARC-100,1,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,ARC-100,1,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,ARC-100,1,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,ARC-100,1,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,ARC-100,1,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S1,ARC-100,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,HEXAHA,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,HEXAHA,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,HEXAHA,1,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 9 m exceeds scenario route envelope 5.1 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,HEXAHA,1,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,HEXAHA,1,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,HEXAHA,1,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,HEXAHA,1,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,HEXAHA,1,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S1,HEXAHA,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,OTRERA 300,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,OTRERA 300,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,OTRERA 300,1,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,OTRERA 300,1,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,OTRERA 300,1,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,OTRERA 300,1,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,OTRERA 300,1,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,OTRERA 300,1,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S1,OTRERA 300,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,SEALER-55,2,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,SEALER-55,2,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,SEALER-55,2,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,SEALER-55,2,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,SEALER-55,2,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,SEALER-55,2,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,SEALER-55,2,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,SEALER-55,2,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S1,SEALER-55,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,SEALER-55,3,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,SEALER-55,3,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,SEALER-55,3,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,SEALER-55,3,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,SEALER-55,3,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,SEALER-55,3,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,SEALER-55,3,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,SEALER-55,3,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S1,SEALER-55,3,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,СВБР-100,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,СВБР-100,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,СВБР-100,1,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,СВБР-100,1,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,СВБР-100,1,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,СВБР-100,1,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,СВБР-100,1,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,СВБР-100,1,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S1,СВБР-100,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,МБИР,2,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,МБИР,2,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,МБИР,2,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,МБИР,2,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,МБИР,2,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,МБИР,2,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,МБИР,2,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,МБИР,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S1,МБИР,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,МБИР,3,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,МБИР,3,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,МБИР,3,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,МБИР,3,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,МБИР,3,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,МБИР,3,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,МБИР,3,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,МБИР,3,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S1,МБИР,3,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,ALFRED,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,ALFRED,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,ALFRED,1,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 12.9 m exceeds scenario route envelope 5.1 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,ALFRED,1,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,ALFRED,1,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,ALFRED,1,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,ALFRED,1,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,ALFRED,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S1,ALFRED,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,SALUS-100,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,SALUS-100,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,SALUS-100,1,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 10.5 m exceeds scenario route envelope 5.1 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,SALUS-100,1,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,SALUS-100,1,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,SALUS-100,1,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,SALUS-100,1,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,SALUS-100,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S1,SALUS-100,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,BLUE CAPSULE,2,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,BLUE CAPSULE,2,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,BLUE CAPSULE,2,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,BLUE CAPSULE,2,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,BLUE CAPSULE,2,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,BLUE CAPSULE,2,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,BLUE CAPSULE,2,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,BLUE CAPSULE,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S1,BLUE CAPSULE,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,BLUE CAPSULE,3,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,BLUE CAPSULE,3,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,BLUE CAPSULE,3,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,BLUE CAPSULE,3,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,BLUE CAPSULE,3,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,BLUE CAPSULE,3,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,BLUE CAPSULE,3,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,BLUE CAPSULE,3,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S1,BLUE CAPSULE,3,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,Aurora,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,Aurora,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,Aurora,1,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,Aurora,1,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,Aurora,1,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,Aurora,1,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,Aurora,1,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,Aurora,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S1,Aurora,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S1,Aurora,2,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S1,Aurora,2,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S1,Aurora,2,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S1,Aurora,2,HEAT_SINK,REVIEW,illustrative,Water access in dataset does not establish adequate heat-sink performance.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S1,Aurora,2,SEISMIC_HAZARD,REVIEW,illustrative,Coarse seismic category is not an engineering design basis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S1,Aurora,2,GROUND_CONDITIONS,REVIEW,illustrative,Coarse rock label does not replace geotechnical investigation.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S1,Aurora,2,FLOOD_HAZARD,REVIEW,illustrative,Scenario low flood category has not been verified by assessment.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S1,Aurora,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S1,Aurora,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,ARC-100,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,ARC-100,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,ARC-100,1,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 7.9 m exceeds scenario route envelope 4.5 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,ARC-100,1,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,ARC-100,1,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,ARC-100,1,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,ARC-100,1,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,ARC-100,1,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S2,ARC-100,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,HEXAHA,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,HEXAHA,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,HEXAHA,1,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 9 m exceeds scenario route envelope 4.5 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,HEXAHA,1,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,HEXAHA,1,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,HEXAHA,1,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,HEXAHA,1,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,HEXAHA,1,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S2,HEXAHA,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,OTRERA 300,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,OTRERA 300,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,OTRERA 300,1,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,OTRERA 300,1,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,OTRERA 300,1,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,OTRERA 300,1,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,OTRERA 300,1,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,OTRERA 300,1,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S2,OTRERA 300,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,SEALER-55,2,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,SEALER-55,2,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,SEALER-55,2,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 4.8 m exceeds scenario route envelope 4.5 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,SEALER-55,2,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,SEALER-55,2,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,SEALER-55,2,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,SEALER-55,2,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,SEALER-55,2,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S2,SEALER-55,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,SEALER-55,3,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,SEALER-55,3,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,SEALER-55,3,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 4.8 m exceeds scenario route envelope 4.5 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,SEALER-55,3,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,SEALER-55,3,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,SEALER-55,3,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,SEALER-55,3,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,SEALER-55,3,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S2,SEALER-55,3,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,СВБР-100,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,СВБР-100,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,СВБР-100,1,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,СВБР-100,1,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,СВБР-100,1,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,СВБР-100,1,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,СВБР-100,1,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,СВБР-100,1,PLOT_ENVELOPE,REVIEW,illustrative,"Nominal catalog footprint fits, but excludes shared plant footprint and site-specific setbacks.",Полный генплан станции и территориально-правовые ограничения
+site,S2,СВБР-100,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,МБИР,2,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,МБИР,2,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,МБИР,2,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,МБИР,2,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,МБИР,2,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,МБИР,2,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,МБИР,2,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,МБИР,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S2,МБИР,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,МБИР,3,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,МБИР,3,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,МБИР,3,SITE_TRANSPORT,SCENARIO_PASS,illustrative,Catalog diameter within illustrative route limit; transport engineering still necessary.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,МБИР,3,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,МБИР,3,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,МБИР,3,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,МБИР,3,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,МБИР,3,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S2,МБИР,3,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,ALFRED,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,ALFRED,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,ALFRED,1,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 12.9 m exceeds scenario route envelope 4.5 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,ALFRED,1,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,ALFRED,1,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,ALFRED,1,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,ALFRED,1,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,ALFRED,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S2,ALFRED,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,SALUS-100,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,SALUS-100,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,SALUS-100,1,SITE_TRANSPORT,REVIEW,illustrative,Catalog diameter 10.5 m exceeds scenario route envelope 4.5 m.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,SALUS-100,1,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,SALUS-100,1,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,SALUS-100,1,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,SALUS-100,1,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,SALUS-100,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S2,SALUS-100,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,BLUE CAPSULE,2,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,BLUE CAPSULE,2,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,BLUE CAPSULE,2,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,BLUE CAPSULE,2,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,BLUE CAPSULE,2,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,BLUE CAPSULE,2,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,BLUE CAPSULE,2,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,BLUE CAPSULE,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S2,BLUE CAPSULE,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,BLUE CAPSULE,3,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,BLUE CAPSULE,3,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,BLUE CAPSULE,3,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,BLUE CAPSULE,3,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,BLUE CAPSULE,3,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,BLUE CAPSULE,3,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,BLUE CAPSULE,3,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,BLUE CAPSULE,3,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S2,BLUE CAPSULE,3,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,Aurora,1,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,Aurora,1,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,Aurora,1,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,Aurora,1,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,Aurora,1,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,Aurora,1,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,Aurora,1,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,Aurora,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S2,Aurora,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S2,Aurora,2,LAND_RESTRICTIONS,REVIEW,illustrative,Scenario reports no known restrictions; absence of constraints is not established.,"Check land rights, licensing setbacks, ecology and exclusion requirements."
+site,S2,Aurora,2,LOCAL_LOAD_PROFILE,SCENARIO_PASS,illustrative,"Within illustrative local demand envelope, without power-system stability analysis.",Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S2,Aurora,2,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S2,Aurora,2,HEAT_SINK,UNKNOWN,illustrative,Water supply/heat sink unavailable in data.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S2,Aurora,2,SEISMIC_HAZARD,REVIEW,illustrative,Scenario labels seismic hazard as elevated. No site-specific hazard analysis.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S2,Aurora,2,GROUND_CONDITIONS,REVIEW,illustrative,Scenario indicates soft ground; foundation type not determined.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S2,Aurora,2,FLOOD_HAZARD,REVIEW,illustrative,Coarse flood risk elevated; design-basis event unknown.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S2,Aurora,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S2,Aurora,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,ARC-100,1,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,ARC-100,1,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,ARC-100,1,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,ARC-100,1,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,ARC-100,1,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,ARC-100,1,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,ARC-100,1,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,ARC-100,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,ARC-100,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,HEXAHA,1,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,HEXAHA,1,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,HEXAHA,1,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,HEXAHA,1,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,HEXAHA,1,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,HEXAHA,1,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,HEXAHA,1,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,HEXAHA,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,HEXAHA,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,OTRERA 300,1,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,OTRERA 300,1,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,OTRERA 300,1,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,OTRERA 300,1,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,OTRERA 300,1,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,OTRERA 300,1,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,OTRERA 300,1,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,OTRERA 300,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,OTRERA 300,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,SEALER-55,2,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,SEALER-55,2,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,SEALER-55,2,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,SEALER-55,2,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,SEALER-55,2,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,SEALER-55,2,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,SEALER-55,2,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,SEALER-55,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,SEALER-55,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,SEALER-55,3,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,SEALER-55,3,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,SEALER-55,3,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,SEALER-55,3,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,SEALER-55,3,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,SEALER-55,3,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,SEALER-55,3,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,SEALER-55,3,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,SEALER-55,3,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,СВБР-100,1,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,СВБР-100,1,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,СВБР-100,1,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,СВБР-100,1,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,СВБР-100,1,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,СВБР-100,1,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,СВБР-100,1,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,СВБР-100,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,СВБР-100,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,МБИР,2,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,МБИР,2,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,МБИР,2,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,МБИР,2,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,МБИР,2,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,МБИР,2,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,МБИР,2,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,МБИР,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,МБИР,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,МБИР,3,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,МБИР,3,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,МБИР,3,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,МБИР,3,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,МБИР,3,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,МБИР,3,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,МБИР,3,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,МБИР,3,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,МБИР,3,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,ALFRED,1,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,ALFRED,1,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,ALFRED,1,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,ALFRED,1,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,ALFRED,1,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,ALFRED,1,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,ALFRED,1,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,ALFRED,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,ALFRED,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,SALUS-100,1,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,SALUS-100,1,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,SALUS-100,1,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,SALUS-100,1,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,SALUS-100,1,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,SALUS-100,1,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,SALUS-100,1,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,SALUS-100,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,SALUS-100,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,BLUE CAPSULE,2,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,BLUE CAPSULE,2,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,BLUE CAPSULE,2,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,BLUE CAPSULE,2,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,BLUE CAPSULE,2,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,BLUE CAPSULE,2,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,BLUE CAPSULE,2,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,BLUE CAPSULE,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,BLUE CAPSULE,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,BLUE CAPSULE,3,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,BLUE CAPSULE,3,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,BLUE CAPSULE,3,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,BLUE CAPSULE,3,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,BLUE CAPSULE,3,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,BLUE CAPSULE,3,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,BLUE CAPSULE,3,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,BLUE CAPSULE,3,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,BLUE CAPSULE,3,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,Aurora,1,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,Aurora,1,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,Aurora,1,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,Aurora,1,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,Aurora,1,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,Aurora,1,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,Aurora,1,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,Aurora,1,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,Aurora,1,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"
+site,S3,Aurora,2,LAND_RESTRICTIONS,UNKNOWN,illustrative,Land-use restrictions are unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,Aurora,2,LOCAL_LOAD_PROFILE,UNKNOWN,illustrative,No local minimum/maximum demand envelope.,Почасовой/сезонный график нагрузок и моделирование энергосистемы
+site,S3,Aurora,2,SITE_TRANSPORT,UNKNOWN,illustrative,Route clearance or transport-package dimensions are unknown.,Инженерное исследование маршрута тяжёлого/негабаритного груза
+site,S3,Aurora,2,HEAT_SINK,REVIEW,illustrative,Conventional water access not indicated. No validated alternative heat sink.,Расчёт источника охлаждения; изучить альтернативную конфигурацию теплоотвода
+site,S3,Aurora,2,SEISMIC_HAZARD,UNKNOWN,illustrative,Seismic hazard not characterized.,Площадочная оценка сейсмической опасности и динамические расчёты; рассмотреть сейсмоизоляцию
+site,S3,Aurora,2,GROUND_CONDITIONS,UNKNOWN,illustrative,Geotechnical conditions unavailable.,"Геотехнические изыскания; рассмотреть типы фундаментов, включая свайные (без предписания свай)"
+site,S3,Aurora,2,FLOOD_HAZARD,UNKNOWN,illustrative,No flood hazard characterization.,"Проверка затопления, паводков и требований к отметкам/защитным системам"
+site,S3,Aurora,2,PLOT_ENVELOPE,UNKNOWN,illustrative,Site area or comparable reactor catalog footprint unknown.,Полный генплан станции и территориально-правовые ограничения
+site,S3,Aurora,2,LICENSING_AND_SAFETY,UNKNOWN,not_supplied,"No licensing, nuclear safety, emergency planning or external hazards review provided.","Проверка регуляторного статуса технологии, проекта, разрешений и безопасности"

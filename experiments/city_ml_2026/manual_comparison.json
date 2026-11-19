@@ -1,0 +1,209 @@
+{
+  "n_sites": 21,
+  "manual_rank": [
+    {
+      "site": "Большой камень (Приморский край)",
+      "manual_total": 25.0,
+      "manual_rank": 1
+    },
+    {
+      "site": "Мыс Наглёйнын (Чукотка)",
+      "manual_total": 23.0,
+      "manual_rank": 2
+    },
+    {
+      "site": "Краснокаменск (Забайкальский край)",
+      "manual_total": 23.0,
+      "manual_rank": 2
+    },
+    {
+      "site": "Норильск (Красноярский край)",
+      "manual_total": 22.0,
+      "manual_rank": 4
+    },
+    {
+      "site": "Петропавловск-Камчатский(Камчатский край)",
+      "manual_total": 22.0,
+      "manual_rank": 4
+    },
+    {
+      "site": "Билибино (Чукотка)",
+      "manual_total": 21.0,
+      "manual_rank": 6
+    },
+    {
+      "site": "Агылкинское (Якутия)",
+      "manual_total": 20.0,
+      "manual_rank": 7
+    },
+    {
+      "site": "Тикси (Якутия)",
+      "manual_total": 20.0,
+      "manual_rank": 7
+    },
+    {
+      "site": "Совиное (Чукотка)",
+      "manual_total": 20.0,
+      "manual_rank": 7
+    },
+    {
+      "site": "Певек (Чукотка)",
+      "manual_total": 20.0,
+      "manual_rank": 7
+    },
+    {
+      "site": "Усть-Кайга(Якутия)",
+      "manual_total": 19.0,
+      "manual_rank": 11
+    },
+    {
+      "site": "Воркута (Коми)",
+      "manual_total": 19.0,
+      "manual_rank": 11
+    },
+    {
+      "site": "Кольский п-ов (Мурманская обл.)",
+      "manual_total": 19.0,
+      "manual_rank": 11
+    },
+    {
+      "site": "Камчатка (Камчатский край)",
+      "manual_total": 18.0,
+      "manual_rank": 14
+    },
+    {
+      "site": "Охотское побережье (Хабаровский край)",
+      "manual_total": 18.0,
+      "manual_rank": 14
+    },
+    {
+      "site": "Южно-Сахалинск(Сахалинская область)",
+      "manual_total": 18.0,
+      "manual_rank": 14
+    },
+    {
+      "site": "Магадан(Магаданская область)",
+      "manual_total": 18.0,
+      "manual_rank": 14
+    },
+    {
+      "site": "Батагай(Якутия)",
+      "manual_total": 17.0,
+      "manual_rank": 18
+    },
+    {
+      "site": "Байкит (Красноярский край)",
+      "manual_total": 17.0,
+      "manual_rank": 18
+    },
+    {
+      "site": "Анадырь(Чукотский АО)",
+      "manual_total": 16.0,
+      "manual_rank": 20
+    },
+    {
+      "site": "Остров Большевик (Красноярский край)",
+      "manual_total": 12.0,
+      "manual_rank": 21
+    }
+  ],
+  "masked_validation": [
+    {
+      "missing_criteria": 1,
+      "site_mask_trials": 126,
+      "metrics": {
+        "median": {
+          "cell_mae": 0.7857142857142857,
+          "rank_mae": 1.4206349206349207,
+          "top3_agreement": 0.9682539682539683
+        },
+        "bayesian-ridge": {
+          "cell_mae": 0.8159767857666428,
+          "rank_mae": 1.6111111111111112,
+          "top3_agreement": 0.9444444444444444
+        },
+        "blend": {
+          "cell_mae": 0.7889188919647477,
+          "rank_mae": 1.626984126984127,
+          "top3_agreement": 0.9523809523809523
+        },
+        "auto": {
+          "cell_mae": 0.7806011685380003,
+          "rank_mae": 1.3888888888888888,
+          "top3_agreement": 0.9444444444444444
+        },
+        "gpr": {
+          "cell_mae": 0.8870998380030441,
+          "rank_mae": 1.8888888888888888,
+          "top3_agreement": 0.9444444444444444
+        }
+      }
+    },
+    {
+      "missing_criteria": 2,
+      "site_mask_trials": 315,
+      "metrics": {
+        "median": {
+          "cell_mae": 0.7857142857142857,
+          "rank_mae": 2.3047619047619046,
+          "top3_agreement": 0.9142857142857143
+        },
+        "bayesian-ridge": {
+          "cell_mae": 0.8214958130344053,
+          "rank_mae": 2.3746031746031746,
+          "top3_agreement": 0.9111111111111111
+        },
+        "blend": {
+          "cell_mae": 0.7929141159311934,
+          "rank_mae": 2.4603174603174605,
+          "top3_agreement": 0.9079365079365079
+        },
+        "auto": {
+          "cell_mae": 0.8209434306049708,
+          "rank_mae": 2.425396825396825,
+          "top3_agreement": 0.9079365079365079
+        },
+        "gpr": {
+          "cell_mae": 0.8849408381733794,
+          "rank_mae": 2.473015873015873,
+          "top3_agreement": 0.9047619047619048
+        }
+      }
+    }
+  ],
+  "manual_workbook": {
+    "file": "Выбор места.xlsx",
+    "matching_sites": 21,
+    "fields_checked_per_site": 7
+  },
+  "manual_finalist_screen": [
+    {
+      "reactor": "СВБР-100",
+      "one_module_power_mw": 100.0,
+      "catalog_diameter_m": 4.4,
+      "passes_50_to_150_mw": true,
+      "passes_4_5_m": true
+    },
+    {
+      "reactor": "ARC-100",
+      "one_module_power_mw": 100.0,
+      "catalog_diameter_m": 7.9,
+      "passes_50_to_150_mw": true,
+      "passes_4_5_m": false
+    },
+    {
+      "reactor": "SEALER-55",
+      "one_module_power_mw": 55.0,
+      "catalog_diameter_m": 4.8,
+      "passes_50_to_150_mw": true,
+      "passes_4_5_m": false
+    },
+    {
+      "reactor": "OTRERA 300",
+      "one_module_power_mw": 110.0,
+      "catalog_diameter_m": 3.0,
+      "passes_50_to_150_mw": true,
+      "passes_4_5_m": true
+    }
+  ]
+}

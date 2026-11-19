@@ -14,8 +14,12 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def main(argv=None):
+    from .city_pipeline import add_arguments as add_city_arguments, run_cli as run_city
+
     parser=argparse.ArgumentParser(description='Exploratory hybrid SMR/site decision-support pipeline')
     sub=parser.add_subparsers(dest='cmd',required=True)
+    city = sub.add_parser('city', help='City-scoped scenario ranking of SMR configurations')
+    add_city_arguments(city)
     v=sub.add_parser('validate',help='Inspect input data quality')
     v.add_argument('--root',type=Path,default=ROOT)
     c=sub.add_parser('source-audit',help='Audit workbook totals and cross-document source inconsistencies')
@@ -61,6 +65,8 @@ def main(argv=None):
     b.add_argument('--operation-life-override',type=int,help='Optional explicitly assumed operation life in years (e.g. thesis 60 vs catalog 50)')
     b.add_argument('--out',type=Path,default=ROOT/'results')
     args=parser.parse_args(argv)
+    if args.cmd == 'city':
+        return run_city(args, city)
     sites,reactors=read_sources(args.root)
     if args.cmd=='source-audit':
         _,profile=cost_profile('bigstone_2026')

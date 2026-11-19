@@ -28,13 +28,21 @@ def cashflow(power_mw: float, modules: int, demand_mw: float, tariff: float, yea
              p: Assumptions = Assumptions(), *, capex_factor: float = 1.,
              opex_factor: float = 1., tariff_factor: float = 1.,
              capacity_factor: float | None = None, demand_factor: float = 1.,
-             delay_years: int = 0):
+             delay_years: int = 0, capital_cost_bln: float | None = None,
+             operating_cost_bln_year: float | None = None):
     if min(power_mw, modules, demand_mw, tariff, years) <= 0:
         raise ValueError('All model inputs must be positive')
     plant_mw = power_mw * modules
     # Power law is strictly a proxy extrapolated from ONE unverified anchor case.
-    capex = 1e9*p.anchor_capex_bln_per_100mw*(power_mw/100.)**p.power_scale_exponent*modules**p.module_scale_exponent
-    opex = 1e9*p.anchor_opex_bln_per_100mw_year*(power_mw/100.)**p.power_scale_exponent*modules
+    if (capital_cost_bln is None) != (operating_cost_bln_year is None):
+        raise ValueError('Provide both explicit cost inputs or neither')
+    if capital_cost_bln is None:
+        capex = 1e9*p.anchor_capex_bln_per_100mw*(power_mw/100.)**p.power_scale_exponent*modules**p.module_scale_exponent
+        opex = 1e9*p.anchor_opex_bln_per_100mw_year*(power_mw/100.)**p.power_scale_exponent*modules
+    else:
+        if not (0 < capital_cost_bln < float('inf') and 0 <= operating_cost_bln_year < float('inf')):
+            raise ValueError('Invalid explicit cost inputs')
+        capex, opex = 1e9 * capital_cost_bln, 1e9 * operating_cost_bln_year
     capex *= capex_factor
     opex *= opex_factor
     annual_kwh = min(plant_mw*(p.capacity_factor if capacity_factor is None else capacity_factor),

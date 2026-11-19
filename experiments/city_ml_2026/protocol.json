@@ -1,0 +1,17 @@
+{
+  "seed": 612,
+  "historical_sites": 21,
+  "context_features_available": [
+    "admin_region"
+  ],
+  "imputation_runs": 630,
+  "query_runs": 378,
+  "imputation_methods": [
+    "none",
+    "median",
+    "bayesian-ridge",
+    "context-ridge",
+    "gpr"
+  ],
+  "design": "Historical ordinal rows replayed at a synthetic city site; physical data and costs are synthetic."
+}

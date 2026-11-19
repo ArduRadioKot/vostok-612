@@ -1,0 +1,5 @@
+site_id,region_id,name,source_status,source_reference,local_demand_min_mw,local_demand_max_mw,transport_max_diameter_m,available_land_m2,water_access,seismic_hazard,ground_conditions,flood_hazard,land_restriction,latitude,longitude,city,deficit,oyat,logistics,industry,economy,geo_climate
+S1,SYNTHETIC-REGION-01,Учебный участок Альфа,illustrative,,75,165,5.1,90000,yes,moderate,rock,low,none,,,Учебный Северный,4,3,5,4,4,4
+S2,SYNTHETIC-REGION-01,Учебный участок Бета,illustrative,,55,140,4.5,60000,unknown,elevated,soft,elevated,none,,,Учебный Северный,4,3,3,4,,3
+S3,SYNTHETIC-REGION-01,Учебный участок Гамма,illustrative,,,,,,no,unknown,unknown,unknown,unknown,,,Учебный Северный,3,,,,,
+S4,SYNTHETIC-REGION-01,Учебный участок Дельта,illustrative,,60,110,4.9,25000,no,elevated,permafrost,elevated,reported_exclusion,,,Учебный Восточный,3,2,3,4,4,3

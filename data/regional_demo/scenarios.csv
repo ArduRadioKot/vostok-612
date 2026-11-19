@@ -1,0 +1,11 @@
+region_id,city,scenario_id,demand_mw,tariff_rub_per_kwh,cost_profile,capex_factor,opex_factor,w_cost,w_power_fit,w_site_rubric
+SYNTHETIC-REGION-01,Учебный Северный,S01,105,12,legacy_2026,1,1,0.5,0.35,0.15
+SYNTHETIC-REGION-01,Учебный Северный,S02,115,12,legacy_2026,1,1,0.5,0.35,0.15
+SYNTHETIC-REGION-01,Учебный Северный,S03,120,12,legacy_2026,1.2,1.1,0.5,0.35,0.15
+SYNTHETIC-REGION-01,Учебный Северный,S04,125,16,bigstone_2026,1,1,0.5,0.35,0.15
+SYNTHETIC-REGION-01,Учебный Северный,S05,130,16,bigstone_2026,1.2,1.1,0.4,0.45,0.15
+SYNTHETIC-REGION-01,Учебный Северный,S06,140,16,bigstone_2026,1,1,0.4,0.45,0.15
+SYNTHETIC-REGION-01,Учебный Северный,S07,110,14,legacy_2026,0.9,1.1,0.35,0.4,0.25
+SYNTHETIC-REGION-01,Учебный Северный,S08,115,14,bigstone_2026,0.9,0.9,0.35,0.4,0.25
+SYNTHETIC-REGION-01,Учебный Северный,S09,125,14,bigstone_2026,1,1,0.35,0.4,0.25
+SYNTHETIC-REGION-01,Учебный Восточный,E01,100,12,legacy_2026,1,1,0.5,0.35,0.15

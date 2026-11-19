@@ -1,0 +1,79 @@
+{
+  "region": "Учебный синтетический промышленный район (не реальная география)",
+  "region_id": "SYNTHETIC-REGION-01",
+  "city": "Учебный Восточный",
+  "site_count": 1,
+  "candidate_count": 78,
+  "scenario_count": 1,
+  "scenarios_without_ranked_candidates": 1,
+  "shortlist_count": 0,
+  "seed": 42,
+  "min_ranked_share": 0.8,
+  "imputation_mode": "median",
+  "screening_envelope_mw": [
+    70.0,
+    130.0
+  ],
+  "analysis_horizon_years_assumed": 40,
+  "status_counts": {
+    "REJECTED": 69,
+    "NEEDS_HARD_DATA": 9
+  },
+  "result": "NO_SCENARIO_SHORTLIST",
+  "leaders": [],
+  "site_rubric_model": {
+    "S4": {
+      "status": "OBSERVED",
+      "missing": []
+    }
+  },
+  "cost_mode": "SCENARIO_PROXY",
+  "cost_profiles": {
+    "legacy_2026": {
+      "name": "legacy_2026",
+      "status": "illustrative_original_model",
+      "source": "research_article(1).md / economics.py (2026-11-11)",
+      "applicability": "Illustrative power-law scenario; not calibrated to actual sites or projects",
+      "depreciation_handling": "Not separately provided in original anchor"
+    }
+  },
+  "scenario_interpretation": "Equal weight per supplied scenario; ordinal rubric estimates are model inputs.",
+  "scope": "Preliminary comparison of modeled alternatives. Cost anchors and demand need local validation.",
+  "inputs": {
+    "region": {
+      "file": "region.json",
+      "sha256": "2e2276adc74c8d9fbe3dcb81601379bf180e962f3f8911d8769438838d45170f"
+    },
+    "sites": {
+      "file": "sites.csv",
+      "sha256": "6cdec6dca7240d87899bc7933848b00cc43fd2b5a9e2509d30a35e9d0b0807b7"
+    },
+    "reactors": {
+      "file": "reactors.csv",
+      "sha256": "30316f7f4a278119ff9e657e71abf784c2084f7bfef2d893807d6902d69649bb"
+    },
+    "scenarios": {
+      "file": "scenarios.csv",
+      "sha256": "cabe18dc307d33ff9fc48da2cf98d00224bfdc70becef7ad568e01b6d6c0bf10"
+    },
+    "history": {
+      "file": "sites.csv",
+      "sha256": "bc8cc3e0ac8e516e86ada25945cf005bafc1e6934da99aeb157e6ae8eba9489f"
+    }
+  },
+  "scenarios": [
+    {
+      "scenario_id": "E01",
+      "demand_mw": 100.0,
+      "tariff_rub_per_kwh": 12.0,
+      "cost_profile": "legacy_2026",
+      "capex_factor": 1.0,
+      "opex_factor": 1.0,
+      "weights": [
+        0.5,
+        0.35,
+        0.15
+      ]
+    }
+  ]
+}
